@@ -1,0 +1,8 @@
+[dev]
+  command = "npm run vite:start"
+  publish = "dist"
+  port = 8080
+
+[build]
+  command = "npm run vite:build"
+  publish = "dist"
