@@ -2,26 +2,40 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
+import Navbar from './components/Navbar';
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Navbar/>
+      <div className="hero">
+        <div className="container">
+          <div className="text-wrapper">
+            <h1>Hi, my name is Peneeta.</h1>
+          </div>
+
+          <div className="anim-wrapper">
+            <p>This portfolio is still under development.</p>
+
+          </div>
+        </div>
       </div>
-      <h1>Peneeta's Portfolio Site</h1>
-      <h2>Coming Soon</h2>
-      <br />
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+
+      <div className="section">
+        <div className="container">
+          <div className="section-text">
+            {/* <p>I am an undergraduate student at the University of Virginia with a passion for creative web development.</p> */}
+          </div>
+        </div>
+      </div>
+
+      <div className="section">
+        <div className="container">
+          <div className="section-text">
+            {/* <p>I study Biomedical Engineering and Data Science with career interests in computational biomedical research.</p> */}
+          </div>
+        </div>
       </div>
     </div>
   )
