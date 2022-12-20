@@ -1,34 +1,42 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import peneetaPortrait from './assets/peneeta_portrait.jpg'
 import './App.css'
 
+import Navbar from './components/Navbar';
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Navbar/>
+      <div className="hero">
+        <img className="peneeta-portrait square" src={peneetaPortrait} alt="peneeta portrait" />
+        <div className="container">
+          <div className="text-wrapper">
+            <h1>Hello, my name is <strong>Peneeta.</strong></h1>
+            <p>I am an undergraduate student at the University of Virginia with a passion for creative front-end web development.</p>
+          </div>
+        </div>
       </div>
-      <h1>Peneeta's Portfolio Site</h1>
-      <h2>Coming Soon</h2>
-      <br />
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      <div className="section">
+        <div className="container">
+          <div className="section-text">
+            <h1>I study Biomedical Engineering and Data Science.</h1>
+            <p>My career interests lie at the intersection of computer science and biology. I have participated in a diverse set of research experiences, from cancer research to synthetic biology. My goal is to pursue a career in drug discovery or computational modeling.</p>
+          </div>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <div className="section">
+        <div className="container">
+          <div className="section-text">
+            <h1>My Creative Outlet</h1>
+            <p>After designing and implementing my first complete website for the iGEM competition, I realized the influence that good UI/UX design has. I am self-taught and still have a lot to learn, however I find ways to improve my design skills in addition to my studies.</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
