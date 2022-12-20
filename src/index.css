@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Laila:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Laila:wght@300;600&display=swap');
 
 
 :root {
@@ -36,17 +36,21 @@ h1 {
   font-family: 'Laila', sans-serif;
   font-size: 3.2em;
   line-height: 1.1;
+  font-weight: 300;
 }
 
 p{
   font-family: 'ABeeZee', sans-serif;
+  color: #242424;
 }
 
 .hero{
   height: 100vh;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
 }
 
 .hero h1{
@@ -54,9 +58,19 @@ p{
 }
 
 .hero .peneeta-portrait.square {
-  width: 30rem;
+  width: 25rem;
   height: auto;
   border-radius: 3rem;
+}
+
+.hero .container .text-wrapper {
+  text-align: left;
+  max-width: 30rem;
+  margin-inline: 3rem;
+}
+
+.hero .container .text-wrapper h1{
+  padding-bottom: 2.5rem;
 }
 
 button {

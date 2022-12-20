@@ -15,11 +15,7 @@ function App() {
         <div className="container">
           <div className="text-wrapper">
             <h1>Hello, my name is <strong>Peneeta.</strong></h1>
-          </div>
-
-          <div className="anim-wrapper">
             <p>I am an undergraduate student at the University of Virginia with a passion for creative front-end web development.</p>
-
           </div>
         </div>
       </div>
