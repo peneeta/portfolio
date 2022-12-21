@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+
 import peneetaPortrait from './assets/peneeta_portrait.jpg'
+
 import './App.css'
 
 import Navbar from './components/Navbar';
@@ -11,7 +13,15 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className="hero">
-        <img className="peneeta-portrait square" src={peneetaPortrait} alt="peneeta portrait" />
+        <div className="portrait-wrapper">
+
+          <div className="portrait">
+            <img className="peneeta-portrait square" src={peneetaPortrait} alt="peneeta portrait" />
+          </div>
+
+        </div>
+        
+        
         <div className="container">
           <div className="text-wrapper">
             <h1>Hello, my name is <strong>Peneeta.</strong></h1>
