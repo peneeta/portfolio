@@ -14,18 +14,19 @@ function App() {
       <Navbar/>
       <div className="hero">
         <div className="portrait-wrapper">
-
+          <div className="square top-left"></div>
+          <div className="square bottom-right"></div>
           <div className="portrait">
             <img className="peneeta-portrait square" src={peneetaPortrait} alt="peneeta portrait" />
           </div>
-
         </div>
-        
         
         <div className="container">
           <div className="text-wrapper">
             <h1>Hello, my name is <strong>Peneeta.</strong></h1>
-            <p>I am an undergraduate student at the University of Virginia with a passion for creative front-end web development.</p>
+            <div className="subtext-wrapper">
+              <p>I am an undergraduate student at the University of Virginia with a passion for creative front-end web development.</p>
+            </div>
           </div>
         </div>
       </div>
