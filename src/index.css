@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Laila:wght@300;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=PT+Sans+Caption&family=Poppins:wght@900&display=swap');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -8,7 +9,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #E6ECE5;
   background-color: #F1F1F1;
 
   font-synthesis: none;
@@ -30,10 +30,15 @@ html{
 }
 
 h1 {
-  font-family: 'Laila', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 3.2em;
   line-height: 1.1;
   font-weight: 300;
+}
+
+h2{
+  font-family: 'PT Sans Caption', sans-serif;
+  color: black;
 }
 
 p{
@@ -43,15 +48,19 @@ p{
 
 .hero{
   height: 100vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
-  justify-content: space-around;
-  align-items: center;
+  
 }
 
 .hero h1{
-  color: #44425A;
+  color: #D64550;
+}
+
+.icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .portrait  img{
@@ -76,27 +85,13 @@ p{
   max-width: 25rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #091420;
+    color: #000000;
     background-color: #F1F1F1;
   }
   a:hover {
     color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
   }
 }
