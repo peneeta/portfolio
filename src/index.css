@@ -34,6 +34,7 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   font-weight: 300;
+  color: #4276ff;
 }
 
 h2{
@@ -48,11 +49,17 @@ p{
 
 .hero{
   height: 100vh;
+  display: flex;
+  justify-items: end;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
   
 }
 
 .hero h1{
-  color: #D64550;
+  color: #4276ff;
+  font-size: clamp(4em, 12vw + 3em, 6em);
 }
 
 .icons-wrapper {
@@ -63,35 +70,41 @@ p{
   gap: 2rem;
 }
 
-.portrait  img{
-  margin: 25px;
+.portrait-wrapper img {
+  max-height: 20rem;
   border-radius: 30px;
-  opacity: 80%;
-  width: 25rem;
-  height: auto;
 }
+
 
 .hero .container .text-wrapper {
   text-align: left;
   max-width: 30rem;
   margin-inline: 3rem;
+  display: grid;
 }
 
 .hero .container .text-wrapper h1{
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .subtext-wrapper {
   max-width: 25rem;
 }
 
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #000000;
-    background-color: #F1F1F1;
-  }
-  a:hover {
-    color: #747bff;
-  }
+.section #research .container{
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
 }
+
+#research .section-text{
+  text-align: left;
+}
+
+#projects .section-text{
+  text-align: right;
+}
+

@@ -13,17 +13,16 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <div className="hero">
-        <div className="portrait-wrapper">
-          <div className="outline">
-            <img src={peneetaOutline} alt="peneeta portrait" />
-          </div>
-        </div>
-        
+      <div id="home" className="hero">
         <div className="container">
           <div className="text-wrapper">
-            <h2>Hello, my name is</h2>
-            <h1>Peneeta.</h1>
+            <div className="headline">
+              <h2>Hello, my name is</h2>
+              <h1>Peneeta.</h1>
+            </div>
+            <div className="subtitle">
+              <p>I am an undergraduate student at the University of Virginia with passions in computational biology, computer science, and web design.</p>
+            </div>
           </div>
           <div className="icons-wrapper">
             <div className="icon linkedin">
@@ -39,25 +38,44 @@ function App() {
           
           </div>
         </div>
+
+        <div className="portrait-wrapper">
+            <img src={peneetaPortrait} alt="peneeta portrait" />
+        </div>
+
       </div>
 
-      <div className="section">
+      <div id="research" className="section">
         <div className="container">
           <div className="section-text">
-            <h1>I study Biomedical Engineering and Data Science.</h1>
+            <h1>Research Experience</h1>
             <p>My career interests lie at the intersection of computer science and biology. I have participated in a diverse set of research experiences, from cancer research to synthetic biology. My goal is to pursue a career in drug discovery or computational modeling.</p>
           </div>
+
+
         </div>
       </div>
 
-      <div className="section">
+      <div id="projects" className="section">
         <div className="container">
           <div className="section-text">
-            <h1>My Creative Outlet</h1>
-            <p>After designing and implementing my first complete website for the iGEM competition, I realized the influence that good UI/UX design has. I am self-taught and still have a lot to learn, however I find ways to improve my design skills in addition to my studies.</p>
+            <h1>Projects</h1>
+            <p>This website</p>
+            <p>iGEM 2022 Team Wiki</p>
           </div>
         </div>
       </div>
+
+      <div id="in-touch" className="section">
+        <div className="container">
+          <div className="section-text">
+            <h1 className="big">Get in Touch</h1>
+            <p>I am always open to new opportunities. Reach out to me via email or LinkedIn:</p>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   )
 }
