@@ -2,21 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=PT+Sans+Caption&family=Poppins:wght@900&display=swap');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  background-color: #F1F1F1;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 * {
@@ -25,7 +13,7 @@
   box-sizing: border-box;
 }
 
-html{
+body{
   margin: 2rem;
 }
 
@@ -57,17 +45,27 @@ p{
   
 }
 
-.hero h1{
-  color: #4276ff;
-  font-size: clamp(4em, 12vw + 3em, 6em);
+.hero.written.animation{
+  width: 6vw;
 }
 
 .icons-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  gap: 2rem;
+  gap: 1.3rem;
+  margin-top: 1.4rem
+}
+
+.icons-wrapper svg{
+  transform: scale(1);
+  transition: transform  0.5s ease;
+}
+
+.icons-wrapper svg:hover{
+  transform: scale(1.4);
+  transition: transform  0.5s ease;
 }
 
 .portrait-wrapper img {
@@ -79,16 +77,27 @@ p{
 .hero .container .text-wrapper {
   text-align: left;
   max-width: 30rem;
-  margin-inline: 3rem;
-  display: grid;
 }
 
 .hero .container .text-wrapper h1{
   padding-bottom: 1.5rem;
+  font-size: clamp(2rem, 2rem + 5vw, 7rem);
+}
+
+.hero h2{
+  font-size: 0.8rem;
+}
+
+.hero p{
+  font-size: 1rem;
 }
 
 .subtext-wrapper {
   max-width: 25rem;
+}
+
+.written.animation {
+  transform: rotate(-10deg);
 }
 
 .section #research .container{

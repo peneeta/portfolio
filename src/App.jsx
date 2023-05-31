@@ -1,24 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import Lottie from 'lottie-react'
+import nameAnimation from './assets/peneeta_penstroke.json'
 
-import peneetaOutline from './assets/peneeta_outline.svg'
+
 import peneetaPortrait from './assets/peneeta_portrait.jpg'
-
 import './App.css'
-
 import Navbar from './components/Navbar';
 
 function App() {
-
   return (
     <div className="App">
       <Navbar/>
       <div id="home" className="hero">
+
         <div className="container">
           <div className="text-wrapper">
             <div className="headline">
               <h2>Hello, my name is</h2>
-              <h1>Peneeta.</h1>
+              <h1>Peneeta</h1>
+              {/* <Lottie className="written animation"
+                animationData={nameAnimation}
+                loop={false}
+                viewBox={"800 90 1920 1500"}
+              /> */}
             </div>
             <div className="subtitle">
               <p>I am an undergraduate student at the University of Virginia with passions in computational biology, computer science, and web design.</p>
@@ -43,14 +46,26 @@ function App() {
             <img src={peneetaPortrait} alt="peneeta portrait" />
         </div>
 
+        
+
+      </div>
+
+      <div id="about" className="section">
+        <div className="container">
+          <div className="section-text">
+            
+          </div>
+        </div>
       </div>
 
       <div id="research" className="section">
         <div className="container">
           <div className="section-text">
             <h1>Research Experience</h1>
-            <p>My career interests lie at the intersection of computer science and biology. I have participated in a diverse set of research experiences, from cancer research to synthetic biology. My goal is to pursue a career in drug discovery or computational modeling.</p>
+            <p>My career interests lie at the intersection of computer science and biology. I have participated in a diverse set of research experiences, from cancer research to synthetic biology. I plan to pursue a doctoral degree after graduation with a goal of pursuing a career in industry.</p>
           </div>
+
+
 
 
         </div>
@@ -66,16 +81,14 @@ function App() {
         </div>
       </div>
 
-      <div id="in-touch" className="section">
+      <div id="contact" className="section">
         <div className="container">
           <div className="section-text">
             <h1 className="big">Get in Touch</h1>
-            <p>I am always open to new opportunities. Reach out to me via email or LinkedIn:</p>
+            <p>I am always open to new opportunities or just to chat! Reach out to me via email or LinkedIn:</p>
           </div>
         </div>
       </div>
-
-
     </div>
   )
 }
