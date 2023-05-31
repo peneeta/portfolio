@@ -5,10 +5,10 @@ function Navbar (){
         <nav>
             <div className="nav-links">
                 <ul id="nav-links"> 
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Research</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#" className="active hover-anim">Home</a></li>
+                    <li><a href="#research" className="hover-anim">Research</a></li>
+                    <li><a href="#projects" className="hover-anim">Projects</a></li>
+                    <li><a href="#contact" className="hover-anim">Get in Touch</a></li>
                 </ul>
             </div>
         </nav>
