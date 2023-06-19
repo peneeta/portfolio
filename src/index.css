@@ -13,9 +13,9 @@
   box-sizing: border-box;
 }
 
-body{
+/* body{
   margin: 2rem;
-}
+} */
 
 h1 {
   font-family: 'Poppins', sans-serif;
@@ -36,12 +36,13 @@ p{
 }
 
 .hero{
-  height: 100vh;
+  height: 110vh;
   display: flex;
   justify-items: end;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  margin-inline: 3rem;
   
 }
 
@@ -73,6 +74,12 @@ p{
   border-radius: 30px;
 }
 
+.hero .container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 .hero .container .text-wrapper {
   text-align: left;
@@ -117,3 +124,6 @@ p{
   text-align: right;
 }
 
+.section {
+  margin: 3rem;
+}
