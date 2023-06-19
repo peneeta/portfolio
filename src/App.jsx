@@ -83,7 +83,7 @@ function App() {
         <div className="container">
           <div className="section-text">
             <h1 className="big">Get in Touch</h1>
-            <p>I am always open to new opportunities or just to chat! Reach out to me via email or LinkedIn:</p>
+            <p>I am always open to new opportunities or just to chat! Reach out to me via email or LinkedIn.</p>
           </div>
         </div>
       </div>
