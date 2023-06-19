@@ -13,16 +13,16 @@
   box-sizing: border-box;
 }
 
-/* body{
-  margin: 2rem;
-} */
-
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 3.2em;
   line-height: 1.1;
   font-weight: 300;
   color: #4276ff;
+}
+
+.section-text h1{
+  margin-bottom: 1rem;
 }
 
 h2{
@@ -34,6 +34,12 @@ p{
   font-family: 'ABeeZee', sans-serif;
   color: #242424;
 }
+
+.section {
+  margin: 3rem;
+}
+
+/* HERO SECTION */
 
 .hero{
   height: 110vh;
@@ -79,6 +85,7 @@ p{
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap-reverse;
 }
 
 .hero .container .text-wrapper {
@@ -103,9 +110,7 @@ p{
   max-width: 25rem;
 }
 
-.written.animation {
-  transform: rotate(-10deg);
-}
+/* RESEARCH SUBSECTION */
 
 .section #research .container{
   max-width: 30rem;
@@ -118,12 +123,19 @@ p{
 
 #research .section-text{
   text-align: left;
+  max-width: 36rem;
 }
+
+/* PROJECTS SUBSECTION */
 
 #projects .section-text{
   text-align: right;
 }
 
-.section {
-  margin: 3rem;
+/* CONTACT SUBSECTION */
+
+#contact .section-text{
+  text-align: center;
 }
+
+
