@@ -1,0 +1,14 @@
+footer {
+    width: 100vw;
+    margin-top: 3rem;
+    background: rgb(25, 25, 25);
+}
+
+footer p {
+    color: white;
+}
+
+.top-text{
+    text-align: center;
+    padding-block: 2rem;
+}

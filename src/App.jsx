@@ -5,6 +5,7 @@ import nameAnimation from './assets/peneeta_penstroke.json'
 import peneetaPortrait from './assets/peneeta_portrait.jpg'
 import './App.css'
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -87,6 +88,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
