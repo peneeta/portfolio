@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Laila:wght@300;600&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=PT+Sans+Caption&family=Poppins:wght@900&display=swap');
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Trirong:wght@200&display=swap');
 
 * {
   margin: 0;
@@ -26,12 +20,12 @@ h1 {
 }
 
 h2{
-  font-family: 'PT Sans Caption', sans-serif;
+  font-family: 'Trirong', serif;
   color: black;
 }
 
 p{
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   color: #242424;
 }
 
@@ -99,7 +93,8 @@ p{
 }
 
 .hero h2{
-  font-size: 0.8rem;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 .hero p{
