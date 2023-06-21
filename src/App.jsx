@@ -4,8 +4,11 @@ import nameAnimation from './assets/peneeta_penstroke.json'
 
 import peneetaPortrait from './assets/peneeta_portrait.jpg'
 import './App.css'
-import Navbar from './components/Navbar';
+
 import Footer from './components/Footer';
+import Timeline from './components/Timeline';
+
+import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -49,25 +52,16 @@ function App() {
         </div>
       </div>
 
-      <div id="about" className="section">
-        <div className="container">
-          <div className="section-text">
-            
-          </div>
-        </div>
-      </div>
-
       <div id="research" className="section">
         <div className="container">
           <div className="section-text">
             <h1>Research Experience</h1>
             <p>My career interests lie at the intersection of computer science and biology. I have participated in a diverse set of research experiences, from cancer research to synthetic biology. I plan to pursue a doctoral degree after graduation with a goal of pursuing a career in industry.</p>
           </div>
-
-
-
-
         </div>
+
+        <Timeline/>
+
       </div>
 
       <div id="projects" className="section">
