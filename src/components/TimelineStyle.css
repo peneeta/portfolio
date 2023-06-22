@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600&family=Trirong:wght@200&display=swap');
 
 .timeline {
-    margin-block: 2rem;
+    margin-block: 5rem;
     position: relative;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .entry .title p{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 1.1;
     margin-bottom: 10px;
     
@@ -32,13 +32,18 @@
 
 .entry .place p{
     font-weight: 600;
+    font-size: 0.7rem;
 }
 
 .date p {
     font-size: x-small;
     margin-bottom: 20px;
-    color: #be055f;
+    color: #4276ff;
     font-family: 'Trirong', serif;
+}
+
+.timeline.text p{
+    font-size: 0.8rem;
 }
 
 .timeline::after{
@@ -46,22 +51,11 @@
     position: absolute;
     width: 2px;
     height: 100%;
-    background: #4276ff;
+    background: #be055f;
     top: 0;
     left: 50%;
     margin-left: -4px;
     z-index: -1;
-    animation: moveline 6s linear forwards;
-}
-
-
-@keyframes moveline {
-    0%{
-        height: 0;
-    }
-    100%{
-        height: 100;
-    }
 }
 
 @media screen and (max-width: 600px){

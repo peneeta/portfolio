@@ -105,6 +105,10 @@ p{
   max-width: 25rem;
 }
 
+.icon svg {
+  fill: #323232;
+}
+
 /* RESEARCH SUBSECTION */
 
 .section #research .container{

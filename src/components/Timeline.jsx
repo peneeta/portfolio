@@ -39,6 +39,42 @@ function Timeline () {
                     </p>
                 </div>
             </div>
+            <div className="entry left-container">
+                <div className="heading">
+                    <div className="date">
+                        <p>June 2023 to August 2023</p>
+                    </div>
+                    <div className="title">
+                        <p>Chemistry Research Assistant</p>
+                    </div>
+                    <div className="place">
+                        <p>Christopher Newport University (Newport News, VA, USA)</p>
+                    </div>
+                </div>
+                <div className="text">
+                    <p>
+                    Text Here
+                    </p>
+                </div>
+            </div>
+            <div className="entry right-container">
+                <div className="heading">
+                    <div className="date">
+                        <p>June 2022 to October 2022</p>
+                    </div>
+                    <div className="title">
+                        <p>Cancer Research Senior Capstone</p>
+                    </div>
+                    <div className="place">
+                        <p>Hampton University (Hampton, VA, USA)</p>
+                    </div>
+                </div>
+                <div className="text">
+                    <p>
+                    Text Here
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }
