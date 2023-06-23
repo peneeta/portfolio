@@ -7,6 +7,7 @@ import './App.css'
 
 import Footer from './components/Footer';
 import Timeline from './components/Timeline';
+import ContactForm from './components/ContactForm';
 
 import Navbar from './components/Navbar';
 
@@ -76,6 +77,10 @@ function App() {
             <p>I am always open to new opportunities or just to chat! Reach out to me via email or LinkedIn.</p>
           </div>
         </div>
+
+        <ContactForm/>
+
+
       </div>
       <Footer/>
     </div>
