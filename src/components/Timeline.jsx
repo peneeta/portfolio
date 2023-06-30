@@ -39,6 +39,42 @@ function Timeline () {
                     </p>
                 </div>
             </div>
+            <div className="entry left-container">
+                <div className="heading">
+                    <div className="date">
+                        <p>June 2023 to August 2023</p>
+                    </div>
+                    <div className="title">
+                        <p>Chemistry Research Assistant</p>
+                    </div>
+                    <div className="place">
+                        <p>Christopher Newport University (Newport News, VA, USA)</p>
+                    </div>
+                </div>
+                <div className="text">
+                    <p>
+                    Characterized and synthesized Bio-Char, a form of activated charcoal made from organic matter, with a team of four summer students. Performed FTIR and absorption analysis, presented results at Sigma XI Research Symposium.
+                    </p>
+                </div>
+            </div>
+            <div className="entry right-container">
+                <div className="heading">
+                    <div className="date">
+                        <p>June 2022 to October 2022</p>
+                    </div>
+                    <div className="title">
+                        <p>Cancer Research Senior Capstone</p>
+                    </div>
+                    <div className="place">
+                        <p>Hampton University (Hampton, VA, USA)</p>
+                    </div>
+                </div>
+                <div className="text">
+                    <p>
+                    Researched response of different triple negative breast cancer cell lines to autophagic drugs, performed cell culture, MTT assays, and analyzed results in Excel using ANOVA. Presented results to 30 faculty and research scientists at Governor's School Research Symposium.
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }
