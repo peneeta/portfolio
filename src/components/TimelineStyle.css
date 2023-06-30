@@ -21,12 +21,14 @@
 
 .entry .heading{
     margin-bottom: 1rem;
+    
 }
 
 .entry .title p{
     font-size: 1.6rem;
     line-height: 1.1;
     margin-bottom: 10px;
+    color: #4276ff;
     
 }
 
@@ -38,11 +40,11 @@
 .date p {
     font-size: x-small;
     margin-bottom: 20px;
-    color: #4276ff;
+    color: black;
     font-family: 'Trirong', serif;
 }
 
-.timeline.text p{
+.timeline .text p{
     font-size: 0.8rem;
 }
 
@@ -51,7 +53,7 @@
     position: absolute;
     width: 2px;
     height: 100%;
-    background: #be055f;
+    background: #4276ff;
     top: 0;
     left: 50%;
     margin-left: -4px;

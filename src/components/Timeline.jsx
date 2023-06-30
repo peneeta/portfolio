@@ -53,7 +53,7 @@ function Timeline () {
                 </div>
                 <div className="text">
                     <p>
-                    Text Here
+                    Characterized and synthesized Bio-Char, a form of activated charcoal made from organic matter, with a team of four summer students. Performed FTIR and absorption analysis, presented results at Sigma XI Research Symposium.
                     </p>
                 </div>
             </div>
@@ -71,7 +71,7 @@ function Timeline () {
                 </div>
                 <div className="text">
                     <p>
-                    Text Here
+                    Researched response of different triple negative breast cancer cell lines to autophagic drugs, performed cell culture, MTT assays, and analyzed results in Excel using ANOVA. Presented results to 30 faculty and research scientists at Governor's School Research Symposium.
                     </p>
                 </div>
             </div>

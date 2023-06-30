@@ -77,10 +77,9 @@ function App() {
             <p>I am always open to new opportunities or just to chat! Reach out to me via email or LinkedIn.</p>
           </div>
         </div>
-
-        <ContactForm/>
-
-
+        <div className="contact-container">
+          <ContactForm/>
+        </div>
       </div>
       <Footer/>
     </div>
