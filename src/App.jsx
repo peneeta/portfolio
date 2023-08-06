@@ -7,7 +7,6 @@ import './App.css'
 
 import Footer from './components/Footer';
 import Timeline from './components/Timeline';
-import ContactForm from './components/ContactForm';
 
 import Navbar from './components/Navbar';
 
@@ -24,14 +23,9 @@ function App() {
             <div className="headline">
               <h2>Hello, my name is</h2>
               <h1>Peneeta</h1>
-              {/* <Lottie className="written animation"
-                animationData={nameAnimation}
-                loop={false}
-                viewBox={"800 90 1920 1500"}
-              /> */}
             </div>
             <div className="subtitle">
-              <p>I am an undergraduate student at the University of Virginia with passions in computational biology, computer science, and web design.</p>
+              <p>I am a fourth-year undergraduate student at the University of Virginia with passions in computational biology, computer science, and web design.</p>
             </div>
             <div className="icons-wrapper">
               <a href="https://www.linkedin.com/in/peneeta/" target="_blank">
@@ -54,7 +48,7 @@ function App() {
         <div className="container">
           <div className="section-text">
             <h1>Research Experience</h1>
-            <p>My career interests lie at the intersection of computer science and biology. I have participated in a diverse set of research experiences, from cancer research to synthetic biology. I plan to pursue a doctoral degree after graduation with a goal of pursuing a career in industry.</p>
+            <p>My career interests lie at the intersection of computer science and biology. I have participated in a diverse set of research experiences, from cancer research to synthetic biology, all of which contributing to my passion to pursue graduate school. I am currently searching for Ph.D. programs in Bioinformatics with a focus on machine learning.</p>
           </div>
         </div>
         <Timeline/>
@@ -76,9 +70,6 @@ function App() {
             <h1 className="big">Get in Touch</h1>
             <p>I am always open to new opportunities or just to chat! Reach out to me via email or LinkedIn.</p>
           </div>
-        </div>
-        <div className="contact-container">
-          <ContactForm/>
         </div>
       </div>
       <Footer/>

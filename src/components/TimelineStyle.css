@@ -3,6 +3,10 @@
 .timeline {
     margin-block: 5rem;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .timeline .entry{
@@ -15,9 +19,6 @@
     left: 0;
 }
 
-.entry.right-container {
-    left: 50%;
-}
 
 .entry .heading{
     margin-bottom: 1rem;
@@ -48,7 +49,7 @@
     font-size: 0.8rem;
 }
 
-.timeline::after{
+/* .timeline::after{
     content: '';
     position: absolute;
     width: 2px;
@@ -58,7 +59,7 @@
     left: 50%;
     margin-left: -4px;
     z-index: -1;
-}
+} */
 
 @media screen and (max-width: 600px){
     .timeline{
