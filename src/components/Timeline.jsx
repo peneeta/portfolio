@@ -21,7 +21,7 @@ function Timeline () {
                     </p>
                 </div>
             </div>
-            <div className="entry right-container">
+            <div className="entry left-container">
                 <div className="heading">
                     <div className="date">
                         <p>June 2022 to October 2022</p>
@@ -35,8 +35,13 @@ function Timeline () {
                 </div>
                 <div className="text">
                     <p>
-                    Worked with a team of 11 other students to research and develop a lateral flow assay (LFA) test strip for atherosclerosis. Performed transformations on E. coli bacteria, ran restriction digests and SDS-PAGE gels. Worked with AlphaFold on the UVA Rivanna HPC to visualize protein structure. Designed and implemented the team website documenting every part of our research.
+                    Worked with a team of 11 other students to research and develop a lateral flow assay (LFA) test strip for atherosclerosis. Performed transformations on <i>E. coli</i>, ran restriction digests and SDS-PAGE gels. Worked with AlphaFold on the UVA Rivanna HPC to visualize protein structure. Designed and implemented the team website documenting every part of our research.
                     </p>
+                </div>
+                <div className="links">
+                    <a href="https://bio.as.virginia.edu/content/virginia-igem-team-f%C3%AAted-paris">
+                    </a>
+                    
                 </div>
             </div>
             <div className="entry left-container">
@@ -45,7 +50,7 @@ function Timeline () {
                         <p>June 2023 to August 2023</p>
                     </div>
                     <div className="title">
-                        <p>Chemistry Research Assistant</p>
+                        <p>Chemistry Student Researcher</p>
                     </div>
                     <div className="place">
                         <p>Christopher Newport University (Newport News, VA, USA)</p>
@@ -57,7 +62,7 @@ function Timeline () {
                     </p>
                 </div>
             </div>
-            <div className="entry right-container">
+            <div className="entry left-container">
                 <div className="heading">
                     <div className="date">
                         <p>June 2022 to October 2022</p>
