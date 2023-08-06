@@ -67,7 +67,7 @@ p{
 
 .portrait-wrapper img {
   max-height: 20rem;
-  border-radius: 30px;
+  border-radius: 100px;
 }
 
 .hero .container {
@@ -126,7 +126,7 @@ p{
 /* PROJECTS SUBSECTION */
 
 #projects .section-text{
-  text-align: right;
+  text-align: center;
 }
 
 /* CONTACT SUBSECTION */
