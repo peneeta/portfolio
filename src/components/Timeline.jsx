@@ -38,10 +38,10 @@ function Timeline () {
                     Worked with a team of 11 other students to research and develop a lateral flow assay (LFA) test strip for atherosclerosis. Performed transformations on <i>E. coli</i>, ran restriction digests and SDS-PAGE gels. Worked with AlphaFold on the UVA Rivanna HPC to visualize protein structure. Designed and implemented the team website documenting every part of our research.
                     </p>
                 </div>
+                {/* RELEVANT LINKS */}
                 <div className="links">
                     <a href="https://bio.as.virginia.edu/content/virginia-igem-team-f%C3%AAted-paris">
                     </a>
-                    
                 </div>
             </div>
             <div className="entry left-container">
