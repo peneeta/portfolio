@@ -1,7 +1,6 @@
 import Lottie from 'lottie-react'
 import nameAnimation from './assets/peneeta_penstroke.json'
 
-
 import peneetaPortrait from './assets/peneeta_portrait.jpg'
 import './App.css'
 
