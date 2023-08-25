@@ -21,9 +21,13 @@ nav{
 
 .nav-links li a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Libre Franklin', sans-serif;
     color: black;
+}
+
+.mobile-toggle {
+    display: none;
 }
 
 @media (min-width: 992px){
@@ -83,12 +87,17 @@ nav{
     }
 
     .mobile-toggle{
+        display: block;
         position: absolute;
-        background: red;
-        width: 1rem;
+        background: url('../assets/hamburger_icon.svg');
+        background-repeat: no-repeat;
+        border: 0;
+        color: rgba(0, 0, 0, 0.894);
+        width: 2rem;
+        aspect-ratio: 1;
         z-index: 999;
         top: 2rem;
-        left: 2rem;
+        left: 3rem;
     }
 }
 
