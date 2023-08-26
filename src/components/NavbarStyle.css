@@ -2,6 +2,7 @@
 nav{
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 
 .nav-links{
@@ -33,7 +34,6 @@ nav{
 @media (min-width: 992px){
     nav{
         width: 100vw;
-        z-index: 999;
     }
     .nav-links {
         display: flex;
@@ -71,7 +71,7 @@ nav{
 
 }
 
-@media (max-width: 576px){
+@media (max-width: 585px){
     .nav-links{
         position: fixed;
         display: flex;
