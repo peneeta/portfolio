@@ -15,9 +15,9 @@ function App() {
       <Navbar/>
       <div id="home" className="hero">
         <div className="container">
-          <div className="portrait-wrapper">
+          {/* <div className="portrait-wrapper">
                 <img src={peneetaPortrait} alt="peneeta portrait" />
-          </div>
+          </div> */}
           <div className="text-wrapper">
             <div className="headline">
               <h2>Hello, my name is</h2>
