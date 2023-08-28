@@ -1,5 +1,8 @@
 /* FONT IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Trirong:wght@200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   margin: 0;
@@ -33,21 +36,15 @@ p{
   color: #242424;
 }
 
-.section {
-  margin: 4rem;
-}
-
 /* HERO SECTION */
 
 .hero{
-  height: 110vh;
+  height: 100vh;
   display: flex;
   justify-items: end;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  margin-inline: 3rem;
-  
+  flex-direction: row;  
 }
 
 .icons-wrapper {

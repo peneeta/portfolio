@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <div id="home" className="hero">
+      <div id="home" className="hero mx-8">
         <div className="container">
           {/* <div className="portrait-wrapper">
                 <img src={peneetaPortrait} alt="peneeta portrait" />
@@ -23,8 +23,8 @@ function App() {
               <h2>Hello, my name is</h2>
               <h1>Peneeta</h1>
             </div>
-            <div className="subtitle">
-              <p>I am a fourth-year undergraduate student at the University of Virginia with passions in computational biology, computer science, and web design.</p>
+            <div className="subtitle text-xs">
+              <p>I am a fourth-year undergraduate student at the University of Virginia majoring in Biomedical Engineering with minors in Computer Science and Data Science.</p>
             </div>
             <div className="icons-wrapper">
               <a href="https://www.linkedin.com/in/peneeta/" target="_blank">
@@ -49,17 +49,17 @@ function App() {
         </div>
       </div>
 
-      <div id="research" className="section">
+      <div id="research" className="mx-8">
         <div className="container">
           <div className="section-text">
             <h1>Research Experience</h1>
-            <p>My career interests lie at the intersection of computer science and biology. I have participated in a diverse set of research experiences, from cancer research to synthetic biology, all of which contributing to my passion to pursue graduate school. I am currently searching for Ph.D. programs in Bioinformatics with a focus on machine learning.</p>
+            <p>My research and career interests lie at the intersection of computer science and biology. I have participated in a diverse set of research experiences, from synthetic biology to computational chemistry, all of which contributing to my passion to pursue graduate school. I am currently searching for Ph.D. programs in Bioinformatics with a focus on developing machine learning algorithms for analysis of biomedical data.</p>
           </div>
         </div>
         <Timeline/>
       </div>
 
-      <div id="projects" className="section">
+      <div id="projects" className="mx-8">
         <div className="container">
           <div className="section-text">
             <h1>Projects</h1>
@@ -69,7 +69,7 @@ function App() {
         </div>
       </div>
 
-      <div id="contact" className="section">
+      <div id="contact" className="mx-8">
         <div className="container">
           <div className="section-text">
             <h1 className="big">Get in Touch</h1>

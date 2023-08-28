@@ -2,7 +2,7 @@ import './TimelineStyle.css'
 
 function Timeline () {
     return(
-        <div className="timeline">
+        <div className="timeline mx-8">
             <div className="entry left-container">
                 <div className="heading">
                     <div className="date">
