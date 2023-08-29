@@ -15,15 +15,12 @@ function App() {
       <Navbar/>
       <div id="home" className="hero mx-8">
         <div className="container">
-          {/* <div className="portrait-wrapper">
-                <img src={peneetaPortrait} alt="peneeta portrait" />
-          </div> */}
           <div className="text-wrapper">
             <div className="headline">
               <h2>Hello, my name is</h2>
               <h1>Peneeta</h1>
             </div>
-            <div className="subtitle text-xs">
+            <div className="subtitle text-base">
               <p>I am a fourth-year undergraduate student at the University of Virginia majoring in Biomedical Engineering with minors in Computer Science and Data Science.</p>
             </div>
             <div className="icons-wrapper">
@@ -49,7 +46,7 @@ function App() {
         </div>
       </div>
 
-      <div id="research" className="mx-8">
+      <div id="research" className="mx-8 section">
         <div className="container">
           <div className="section-text">
             <h1>Research Experience</h1>
@@ -59,7 +56,7 @@ function App() {
         <Timeline/>
       </div>
 
-      <div id="projects" className="mx-8">
+      <div id="projects" className="mx-8 section">
         <div className="container">
           <div className="section-text">
             <h1>Projects</h1>
@@ -69,7 +66,7 @@ function App() {
         </div>
       </div>
 
-      <div id="contact" className="mx-8">
+      <div id="contact" className="mx-8 section">
         <div className="container">
           <div className="section-text">
             <h1 className="big">Get in Touch</h1>
