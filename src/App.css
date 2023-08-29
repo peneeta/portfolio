@@ -1,5 +1,15 @@
+:root {
+  --light-background-color: rgb(255, 255, 255);
+  --type-speed: 2s;
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--light-background-color);
 }

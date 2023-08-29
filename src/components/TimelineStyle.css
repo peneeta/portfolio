@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600&family=Trirong:wght@200&display=swap');
 
 .timeline {
-    margin-block: 5rem;
+    margin-top: 5rem;
     z-index: -1;
     position: relative;
     display: flex;
@@ -14,7 +14,6 @@
 .timeline .entry{
     position: relative;
     margin-bottom: 3rem;
-
 }
 
 
