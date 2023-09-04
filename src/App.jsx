@@ -18,7 +18,8 @@ function App() {
           <div className="text-wrapper">
             <div className="headline">
               <h2>Hello, my name is</h2>
-              <h1>Peneeta</h1>
+              {/* https://shipshape.io/blog/wait-for-page-load-in-react/ */}
+              <h1>Peneeta</h1> 
             </div>
             <div className="subtitle text-base">
               <p>I am a fourth-year undergraduate student at the University of Virginia majoring in Biomedical Engineering with minors in Computer Science and Data Science.</p>
@@ -70,7 +71,6 @@ function App() {
         <div className="container">
           <div className="section-text">
             <h1 className="big">Get in Touch</h1>
-            <p>I am always open to new opportunities or just to chat! Reach out to me via email or LinkedIn.</p>
           </div>
           <div className="emails">
             <p>paw5vrr@virginia.edu</p>
