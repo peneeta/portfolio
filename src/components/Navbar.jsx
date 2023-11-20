@@ -24,8 +24,7 @@ function Navbar (){
             <ul id="nav-links" data-visible='false' className="nav-links"> 
                 <li><a href="#" className="">Home</a></li>
                 <li><a href="#research" className="">Research</a></li>
-                <li><a href="#projects" className="">Projects</a></li>
-                <li><a href="#contact" className="">Get in Touch</a></li>
+                <li><a href="#resources" className="">Resources</a></li>
             </ul>
         </nav>
     )

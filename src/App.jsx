@@ -51,32 +51,20 @@ function App() {
         <div className="container">
           <div className="section-text">
             <h1>Research Experience</h1>
-            <p>My research and career interests lie at the intersection of computer science and biology. I have participated in a diverse set of research experiences, from synthetic biology to computational chemistry, all of which contributing to my passion to pursue graduate school. I am currently searching for Ph.D. programs in Bioinformatics with a focus on developing machine learning algorithms for analysis of biomedical data.</p>
           </div>
         </div>
         <Timeline/>
       </div>
 
-      <div id="projects" className="mx-8 section">
+      <div id="resources" className="mx-8 section">
         <div className="container">
           <div className="section-text">
-            <h1>Projects</h1>
-            <p>This website</p>
-            <p>iGEM 2022 Team Wiki</p>
+            <h1>Resources</h1>
           </div>
         </div>
       </div>
 
-      <div id="contact" className="mx-8 section">
-        <div className="container">
-          <div className="section-text">
-            <h1 className="big">Get in Touch</h1>
-          </div>
-          <div className="emails">
-            <p>paw5vrr@virginia.edu</p>
-          </div>
-        </div>
-      </div>
+
       <Footer/>
     </div>
   )

@@ -1,9 +1,28 @@
 import './TimelineStyle.css'
-
+// MAKE THIS INTO A TABLE
 function Timeline () {
     return(
         <div className="timeline mx-8">
-            <div className="entry left-container">
+            <div className="entry">
+                <div className="heading">
+                    <div className="date">
+                        <p>September 2023 to May 2024</p>
+                    </div>
+                    <div className="title">
+                        <p>Capstone Senior Thesis</p>
+                    </div>
+                    <div className="place">
+                        <p>University of Virginia (Charlottesville, VA)</p>
+                    </div>
+                </div>
+                <div className="text">
+                    <p>
+                    Undergraduate thesis project in the Sheffield Lab. Implement a transformer model to predict closely related genomic regions.
+                    </p>
+                </div>
+            </div>
+
+            <div className="entry">
                 <div className="heading">
                     <div className="date">
                         <p>June 2023 to August 2023</p>
@@ -17,11 +36,11 @@ function Timeline () {
                 </div>
                 <div className="text">
                     <p>
-                    Computational Chemistry internship sponsored by the Deutscher Akademischer Austauschdienst (DAAD) in the Gmeiner Lab at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU). Used molecular dynamics simulation software such as GROMACS, AMBER, and CHARMMGUI to model GPCR receptors with associated ligand binding. Shadowed a Drug-Discovery lab summer course taught by Dr. Petra Imhof. Attended the DAAD Heidelberg conference to meet other DAAD researchers.
+                    Computational Chemistry internship sponsored by the Deutscher Akademischer Austauschdienst (DAAD). Used molecular dynamics simulation software such as GROMACS, AMBER, and CHARMMGUI to model GPCR receptors with associated ligand binding. Shadowed a Drug-Discovery lab summer course taught by Dr. Petra Imhof. Attended the DAAD Heidelberg conference to meet other DAAD researchers.
                     </p>
                 </div>
             </div>
-            <div className="entry left-container">
+            <div className="entry">
                 <div className="heading">
                     <div className="date">
                         <p>June 2022 to October 2022</p>
@@ -44,7 +63,7 @@ function Timeline () {
                     </a>
                 </div>
             </div>
-            <div className="entry left-container">
+            <div className="entry">
                 <div className="heading">
                     <div className="date">
                         <p>June 2021 to August 2021</p>
@@ -59,24 +78,6 @@ function Timeline () {
                 <div className="text">
                     <p>
                     Characterized and synthesized Bio-Char, a form of activated charcoal made from organic matter, with a team of four summer students. Performed FTIR and absorption analysis, presented results at Sigma XI Research Symposium.
-                    </p>
-                </div>
-            </div>
-            <div className="entry left-container">
-                <div className="heading">
-                    <div className="date">
-                        <p>June 2019 to May 2020</p>
-                    </div>
-                    <div className="title">
-                        <p>Cancer Research Senior Capstone</p>
-                    </div>
-                    <div className="place">
-                        <p>Hampton University (Hampton, VA, USA)</p>
-                    </div>
-                </div>
-                <div className="text">
-                    <p>
-                    Researched response of different triple negative breast cancer cell lines to autophagic drugs, performed cell culture, MTT assays, and analyzed results in Excel using ANOVA. Presented results to 30 faculty and research scientists at Governor's School Research Symposium.
                     </p>
                 </div>
             </div>
