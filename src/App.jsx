@@ -1,7 +1,7 @@
 import Lottie from 'lottie-react'
 import nameAnimation from './assets/peneeta_penstroke.json'
 
-import peneetaPortrait from './assets/peneeta_portrait.jpg'
+import Particle from './components/Particle';
 import './App.css'
 
 import Footer from './components/Footer';
@@ -14,15 +14,15 @@ function App() {
     <div className="App">
       <Navbar/>
       <div id="home" className="hero mx-8">
+        <Particle/>
         <div className="container">
           <div className="text-wrapper">
             <div className="headline">
               <h2>Hello, my name is</h2>
-              {/* https://shipshape.io/blog/wait-for-page-load-in-react/ */}
               <h1>Peneeta</h1> 
             </div>
             <div className="subtitle text-base">
-              <p>I am a fourth-year undergraduate student at the University of Virginia majoring in Biomedical Engineering with minors in Computer Science and Data Science.</p>
+              <p>Seeking research opportunities at the intersection of Biomedical Engineering 🧬, Computer Science 💻 and Data Science 📊.</p>
             </div>
             <div className="icons-wrapper">
               <a href="https://www.linkedin.com/in/peneeta/" target="_blank">
@@ -47,12 +47,13 @@ function App() {
         </div>
       </div>
 
-      <div id="research" className="mx-8 section">
+      <div id="experience" className="mx-8 section">
         <div className="container">
           <div className="section-text">
-            <h1>Research Experience</h1>
+            <h1>Experience</h1>
           </div>
         </div>
+
         <Timeline/>
       </div>
 
