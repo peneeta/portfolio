@@ -12,10 +12,10 @@
 
 h1 {
   font-family: 'Red Hat Mono', monospace;
-  font-size: 3.2em;
+  font-size: 4em;
   line-height: 1.1;
   font-weight: 300;
-  color: #4276ff;
+  color: #4a7dff;
 }
 
 .headline h1{
@@ -52,14 +52,14 @@ h1 {
 }
 
 .headline h1::before{
-  background: var(--light-background-color);
+  background: var(--dark-background-color);
   animation: typeAnim var(--type-speed) steps(7) 1.8s forwards;
 }
 
 .headline h1::after{
   width: 0.03em;
   height: 1em;
-  background: rgb(5, 5, 5);
+  background: rgb(244, 244, 244);
   animation: 
     typeAnim var(--type-speed) steps(7) 1.8s forwards,
     blink 900ms steps(2, start) 2,
@@ -84,12 +84,12 @@ h1 {
 
 h2{
   font-family: 'Trirong', serif;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 p{
   font-family: 'Libre Franklin', sans-serif;
-  color: #242424;
+  color: #ececec;
 }
 
 /* HERO SECTION */
@@ -146,12 +146,12 @@ p{
 }
 
 .hero h2{
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin-bottom: 0.3rem;
 }
 
 .hero p{
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .subtext-wrapper {
@@ -160,16 +160,17 @@ p{
 
 .icon svg {
   z-index: 10;
-  fill: #323232;
+  fill: #e3e3e3;
 }
 
 .section {
-  margin-block: 3rem;
+  padding-block: 1rem;
+  background-color: var(--dark-background-color);
 }
 
 /* RESEARCH SUBSECTION */
 
-.section #research .container{
+.section #experience .container{
   max-width: 30rem;
   display: flex;
   flex-direction: column;
@@ -180,7 +181,6 @@ p{
 
 #research .section-text{
   max-width: 34rem;
-  /* NEED separate margin properties to center div */
   margin-left: auto; 
   margin-right: auto;
 }

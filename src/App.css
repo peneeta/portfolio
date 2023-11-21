@@ -1,5 +1,6 @@
 :root {
   --light-background-color: rgb(255, 255, 255);
+  --dark-background-color: rgb(9, 9, 9);
   --type-speed: 2s;
 }
 
@@ -11,5 +12,5 @@
 
 body {
   overflow-x: hidden;
-  background-color: var(--light-background-color);
+  background-color: var(--dark-background-color);
 }

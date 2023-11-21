@@ -1,11 +1,12 @@
 import Lottie from 'lottie-react'
 import nameAnimation from './assets/peneeta_penstroke.json'
 
-import peneetaPortrait from './assets/peneeta_portrait.jpg'
+import Particle from './components/Particle';
 import './App.css'
 
 import Footer from './components/Footer';
 import Timeline from './components/Timeline';
+import ResourcesList from './components/ResourcesList';
 
 import Navbar from './components/Navbar';
 
@@ -14,15 +15,15 @@ function App() {
     <div className="App">
       <Navbar/>
       <div id="home" className="hero mx-8">
+        <Particle className="particleBG"/>
         <div className="container">
           <div className="text-wrapper">
             <div className="headline">
               <h2>Hello, my name is</h2>
-              {/* https://shipshape.io/blog/wait-for-page-load-in-react/ */}
               <h1>Peneeta</h1> 
             </div>
             <div className="subtitle text-base">
-              <p>I am a fourth-year undergraduate student at the University of Virginia majoring in Biomedical Engineering with minors in Computer Science and Data Science.</p>
+              <p>Seeking research opportunities at the intersection of Biomedical Engineering 🧬, Computer Science 💻 and Data Science 📊.</p>
             </div>
             <div className="icons-wrapper">
               <a href="https://www.linkedin.com/in/peneeta/" target="_blank">
@@ -47,36 +48,29 @@ function App() {
         </div>
       </div>
 
-      <div id="research" className="mx-8 section">
+      <div id="experience" className="px-8 section">
         <div className="container">
           <div className="section-text">
-            <h1>Research Experience</h1>
-            <p>My research and career interests lie at the intersection of computer science and biology. I have participated in a diverse set of research experiences, from synthetic biology to computational chemistry, all of which contributing to my passion to pursue graduate school. I am currently searching for Ph.D. programs in Bioinformatics with a focus on developing machine learning algorithms for analysis of biomedical data.</p>
+            <h1>Experience</h1>
           </div>
         </div>
         <Timeline/>
       </div>
 
-      <div id="projects" className="mx-8 section">
+      <div id="resources" className="px-8 section">
         <div className="container">
           <div className="section-text">
-            <h1>Projects</h1>
-            <p>This website</p>
-            <p>iGEM 2022 Team Wiki</p>
+            <h1>Resources</h1>
           </div>
+          
+          <ResourcesList/>
+
+
+
         </div>
       </div>
 
-      <div id="contact" className="mx-8 section">
-        <div className="container">
-          <div className="section-text">
-            <h1 className="big">Get in Touch</h1>
-          </div>
-          <div className="emails">
-            <p>paw5vrr@virginia.edu</p>
-          </div>
-        </div>
-      </div>
+
       <Footer/>
     </div>
   )
