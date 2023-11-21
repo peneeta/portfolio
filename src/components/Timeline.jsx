@@ -1,5 +1,5 @@
 import './TimelineStyle.css'
-// MAKE THIS INTO A TABLE
+
 function Timeline () {
     return(
         <div className="timeline mx-8">

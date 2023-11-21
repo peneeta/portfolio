@@ -12,7 +12,7 @@
 
 h1 {
   font-family: 'Red Hat Mono', monospace;
-  font-size: 3.2em;
+  font-size: 4em;
   line-height: 1.1;
   font-weight: 300;
   color: #4a7dff;
@@ -146,7 +146,7 @@ p{
 }
 
 .hero h2{
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin-bottom: 0.3rem;
 }
 
@@ -164,12 +164,13 @@ p{
 }
 
 .section {
-  margin-block: 3rem;
+  padding-block: 1rem;
+  background-color: var(--dark-background-color);
 }
 
 /* RESEARCH SUBSECTION */
 
-.section #research .container{
+.section #experience .container{
   max-width: 30rem;
   display: flex;
   flex-direction: column;
@@ -180,7 +181,6 @@ p{
 
 #research .section-text{
   max-width: 34rem;
-  /* NEED separate margin properties to center div */
   margin-left: auto; 
   margin-right: auto;
 }

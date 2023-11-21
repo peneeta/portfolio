@@ -6,6 +6,7 @@ import './App.css'
 
 import Footer from './components/Footer';
 import Timeline from './components/Timeline';
+import ResourcesList from './components/ResourcesList';
 
 import Navbar from './components/Navbar';
 
@@ -14,7 +15,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <div id="home" className="hero mx-8">
-        <Particle/>
+        <Particle className="particleBG"/>
         <div className="container">
           <div className="text-wrapper">
             <div className="headline">
@@ -47,21 +48,25 @@ function App() {
         </div>
       </div>
 
-      <div id="experience" className="mx-8 section">
+      <div id="experience" className="px-8 section">
         <div className="container">
           <div className="section-text">
             <h1>Experience</h1>
           </div>
         </div>
-
         <Timeline/>
       </div>
 
-      <div id="resources" className="mx-8 section">
+      <div id="resources" className="px-8 section">
         <div className="container">
           <div className="section-text">
             <h1>Resources</h1>
           </div>
+          
+          <ResourcesList/>
+
+
+
         </div>
       </div>
 
