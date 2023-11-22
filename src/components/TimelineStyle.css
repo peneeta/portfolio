@@ -1,48 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600&family=Trirong:wght@200&display=swap');
 
+/*================================== TIMELINE ==================================*/
+/*-- GENERAL STYLES ------------------------------*/
 .timeline {
-    margin-top: 5rem;
+    line-height: 1.4em;
+    margin-top: 5rem !important;
     z-index: 4;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 30rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 35rem;
 }
 
-.timeline .entry{
-    position: relative;
-    margin-bottom: 3rem;
-}
+/* .timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
+    line-height: inherit;
+} */
 
-
-.entry .heading{
-    margin-bottom: 1rem;
-    
-}
-
-.entry .title p{
+.timeline h3{
     font-size: 1.6rem;
-    line-height: 1.1;
-    margin-bottom: 10px;
-    color: #4276ff;
-    
+    margin-block: 2rem;
+    font-family: 'Trirong'
 }
 
-.entry .place p{
-    font-weight: 600;
-    font-size: 0.7rem;
+.bullet-list{
+    list-style: inside;
 }
 
-.date p {
-    font-size: x-small;
-    margin-bottom: 20px;
-    color: black;
-    font-family: 'Trirong', serif;
+.links a {
+    color: #00e8ff;
+    text-decoration: underline;
 }
 
-.timeline .text p{
-    font-size: 1rem;
+.links {
+    padding-block: 1rem;
 }
+
+/*----- TIMELINE ITEM -----*/
+.timeline-item {
+    padding-left: 40px;
+    position: relative;
+}
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+/*----- TIMELINE INFO -----*/
+.timeline-info {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0 0 0.5em 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+/*----- TIMELINE MARKER -----*/
+.timeline-marker {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+}
+.timeline-marker:before {
+    background: #F45B69;
+    border: 3px solid #F45B69;
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 15px;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.timeline-marker:after {
+    content: "";
+    width: 3px;
+    background: #ccd5db;
+    display: block;
+    position: absolute;
+    top: 24px;
+    bottom: 0;
+    left: 6px;
+}
+.timeline-item:last-child .timeline-marker:after {
+    content: none;
+}
+.timeline-item:not(.period):hover .timeline-marker:before {
+    background: transparent;
+    border: 3px solid "white";
+}
+/*----- TIMELINE CONTENT -----*/
+.timeline-content {
+    padding-bottom: 40px;
+}
+.timeline-content p:last-child {
+    margin-bottom: 0;
+}
+/*----- TIMELINE PERIOD -----*/
+.period {
+    padding: 0;
+}
+.period .timeline-info {
+    display: none;
+}
+.period .timeline-marker:before {
+    background: transparent;
+    content: "";
+    width: 15px;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    top: 0;
+    bottom: 30px;
+    position: absolute;
+    border-top: 3px solid #ccd5db;
+    border-bottom: 3px solid #ccd5db;
+}
+.period .timeline-marker:after {
+    content: "";
+    height: 32px;
+    top: auto;
+}
+.period .timeline-content {
+    padding: 40px 0 70px;
+}
+.period .timeline-title {
+    margin: 0;
+}
+
 

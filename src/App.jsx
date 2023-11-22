@@ -49,25 +49,19 @@ function App() {
       </div>
 
       <div id="experience" className="px-8 section">
-        <div className="container">
           <div className="section-text">
             <h1>Experience</h1>
           </div>
-        </div>
         <Timeline/>
       </div>
 
+
       <div id="resources" className="px-8 section">
-        <div className="container">
           <div className="section-text">
             <h1>Resources</h1>
           </div>
           
           <ResourcesList/>
-
-
-
-        </div>
       </div>
 
 

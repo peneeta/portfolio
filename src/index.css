@@ -12,7 +12,7 @@
 
 h1 {
   font-family: 'Red Hat Mono', monospace;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1.1;
   font-weight: 300;
   color: #4a7dff;
@@ -79,7 +79,7 @@ h1 {
 }
 
 .section-text h1{
-  margin-bottom: 1rem;
+  margin-block: 2rem;
 }
 
 h2{
@@ -151,7 +151,7 @@ p{
 }
 
 .hero p{
-  font-size: 1.1rem;
+  font-size: 0.8rem;
 }
 
 .subtext-wrapper {
@@ -165,21 +165,12 @@ p{
 
 .section {
   padding-block: 1rem;
-  background-color: var(--dark-background-color);
+  /* background-color: var(--dark-background-color); */
+  background: linear-gradient(180deg, rgba(9,9,9,0) 0%, rgba(9,9,9,1) 16%);
 }
 
-/* RESEARCH SUBSECTION */
 
-.section #experience .container{
-  max-width: 30rem;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-
-#research .section-text{
+#experience .section-text{
   max-width: 34rem;
   margin-left: auto; 
   margin-right: auto;
