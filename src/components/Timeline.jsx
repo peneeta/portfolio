@@ -2,85 +2,98 @@ import './TimelineStyle.css'
 
 function Timeline () {
     return(
-        <div className="timeline mx-8">
-            <div className="entry">
-                <div className="heading">
-                    <div className="date">
-                        <p>September 2023 to May 2024</p>
-                    </div>
-                    <div className="title">
-                        <p>Capstone Senior Thesis</p>
-                    </div>
-                    <div className="place">
-                        <p>University of Virginia (Charlottesville, VA)</p>
-                    </div>
-                </div>
-                <div className="text">
-                    <p>
-                    Undergraduate thesis project in the Sheffield Lab. Implement a transformer model to predict closely related genomic regions.
-                    </p>
-                </div>
-            </div>
 
-            <div className="entry">
-                <div className="heading">
-                    <div className="date">
-                        <p>June 2023 to August 2023</p>
+        <div className="md:grid-cols-2">
+            <ul className="timeline">
+                <li className="timeline-item period">
+                    <div className="timeline-info"></div>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h2 className="timeline-title">2023</h2>
                     </div>
-                    <div className="title">
-                        <p>DAAD RISE Intern Computational Chemistry</p>
+                </li>
+                <li className="timeline-item">
+                    <div className="timeline-info">
+                        <span>September 2023 to May 2024</span>
                     </div>
-                    <div className="place">
-                        <p>FAU Erlangen-Nürnberg (Erlangen, Germany)</p>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h3 className="timeline-title">Capstone Senior Thesis (University of Virginia, Charlottesville)</h3>
+                        <ul className='bullet-list'>
+                            <li>Collaborate with 2 graduate and 3 undergraduates to develop four deep learning models in the Sheffield lab</li>
+                            <li>Implementing a transformer model trained on tokenized BED files to predict closely related genomic regions.</li>
+                            <li>Compare model results using classification tasks.</li>
+                        </ul>
+                        <div className="links">
+                            <ul>
+                                <li><a href="https://databio.org/"> 🔗 Sheffield Lab Website</a></li>
+                                <li>Final model to come!</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div className="text">
-                    <p>
-                    Computational Chemistry internship sponsored by the Deutscher Akademischer Austauschdienst (DAAD). Used molecular dynamics simulation software such as GROMACS, AMBER, and CHARMMGUI to model GPCR receptors with associated ligand binding. Shadowed a Drug-Discovery lab summer course taught by Dr. Petra Imhof. Attended the DAAD Heidelberg conference to meet other DAAD researchers.
-                    </p>
-                </div>
-            </div>
-            <div className="entry">
-                <div className="heading">
-                    <div className="date">
-                        <p>June 2022 to October 2022</p>
+                </li>
+                <li className="timeline-item">
+                    <div className="timeline-info">
+                        <span>June 2023 to August 2023</span>
                     </div>
-                    <div className="title">
-                        <p>iGEM Competition Researcher and Wiki Lead</p>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h3 className="timeline-title">DAAD RISE Intern Computational Chemistry (FAU Erlangen-Nürnberg)</h3>
+                        <ul className='bullet-list'>
+                            <li>Worked in the Gmeiner Lab, mentored by graduate student Eduard Neu</li>
+                            <li>Simulated 5 GPCR receptors with associated ligand binding using molecular dynamics simulation software such as GROMACS, AMBER, and CHARMMGUI</li>
+                            <li>Conducted hydrogen bonding and RMSD analysis comparing mutant and wild-type ligands</li>   
+                        </ul>
+                        <div className='links'>
+                            <ul>
+                                <li><a href="http://www.medchem.uni-erlangen.de/gmeinerlab/">🔗 Gmeiner Lab Website</a></li>
+                                <li><a href="https://docs.google.com/document/d/1Zae1JEqIUgD9U-f2B-E3epebK3Vle18ii6bCqq5JsJc/edit?usp=sharing">📄 MD Simulation Workflow</a></li>
+                            </ul>
+
+                        </div>
                     </div>
-                    <div className="place">
-                        <p>University of Virginia (Charlottesville, VA, USA)</p>
+                </li>
+                <li className="timeline-item period">
+                    <div className="timeline-info"></div>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h2 className="timeline-title">2022</h2>
                     </div>
-                </div>
-                <div className="text">
-                    <p>
-                    Worked with a team of 11 other students to research and develop a lateral flow assay (LFA) test strip for atherosclerosis. Performed transformations on <i>E. coli</i>, ran restriction digests and SDS-PAGE gels. Worked with AlphaFold on the UVA Rivanna HPC to visualize protein structure. Designed and implemented the team website documenting every part of our research.
-                    </p>
-                </div>
-                {/* RELEVANT LINKS */}
-                <div className="links">
-                    <a href="https://bio.as.virginia.edu/content/virginia-igem-team-f%C3%AAted-paris">
-                    </a>
-                </div>
-            </div>
-            <div className="entry">
-                <div className="heading">
-                    <div className="date">
-                        <p>June 2021 to August 2021</p>
+                </li>
+                <li className="timeline-item">
+                    <div className="timeline-info">
+                        <span>June 2022 to October 2022</span>
                     </div>
-                    <div className="title">
-                        <p>Chemistry Student Researcher</p>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h3 className="timeline-title">iGEM Competition Researcher and Wiki Lead (University of Virginia, Charlottesville)</h3>
+                        <ul className='bullet-list'>
+                            <li>Developed a lateral flow assay (LFA) test strip for atherosclerosis using antibodies produced in <i>E. coli</i></li>
+                            <li>Designed and implemented the team website documenting every part of our research</li>
+                        </ul>
                     </div>
-                    <div className="place">
-                        <p>Christopher Newport University (Newport News, VA, USA)</p>
+                </li>
+                <li className="timeline-item period">
+                    <div className="timeline-info"></div>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h2 className="timeline-title">2021</h2>
                     </div>
-                </div>
-                <div className="text">
-                    <p>
-                    Characterized and synthesized Bio-Char, a form of activated charcoal made from organic matter, with a team of four summer students. Performed FTIR and absorption analysis, presented results at Sigma XI Research Symposium.
-                    </p>
-                </div>
-            </div>
+                </li>
+                <li className="timeline-item">
+                    <div className="timeline-info">
+                        <span>June 2021 to August 2021</span>
+                    </div>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h3 className="timeline-title">Chemistry Lab Assistant (Christopher Newport University, Newport News)</h3>
+                        <ul className='bullet-list'>
+                            <li>Worked in a chemistry lab supervised by Dr. Tarek Abdel Fattah </li>
+                            <li>Synthesized and characterized Bio-Char, a form of activated charcoal made from organic matter</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
         </div>
     )
 }
