@@ -13,9 +13,11 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
+      <Particle/>
       <Navbar/>
+      
       <div id="home" className="hero mx-8">
-        <Particle className="particleBG"/>
+        
         <div className="container">
           <div className="text-wrapper">
             <div className="headline">
@@ -60,7 +62,6 @@ function App() {
           <div className="section-text">
             <h1>Resources</h1>
           </div>
-          
           <ResourcesList/>
       </div>
 

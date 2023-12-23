@@ -27,7 +27,6 @@ function Timeline () {
                         <div className="links">
                             <ul>
                                 <li><a href="https://databio.org/"> 🔗 Sheffield Lab Website</a></li>
-                                <li>Final model to come!</li>
                             </ul>
                         </div>
                     </div>
