@@ -15,7 +15,6 @@ function App() {
     <div className="App">
       <Particle/>
       <Navbar/>
-      
       <div id="home" className="hero mx-8">
         
         <div className="container">

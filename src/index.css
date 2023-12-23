@@ -122,11 +122,6 @@ p{
   transition: transform  0.5s ease;
 }
 
-.portrait-wrapper img {
-  max-height: 20rem;
-  border-radius: 100px;
-}
-
 .hero .container {
   display: flex;
   align-items: center;
@@ -169,6 +164,12 @@ p{
   background: linear-gradient(180deg, rgba(9,9,9,0) 0%, rgba(9,9,9,1) 16%);
 }
 
+#experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 #experience .section-text{
   max-width: 34rem;
