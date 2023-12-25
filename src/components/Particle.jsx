@@ -24,9 +24,14 @@ function Particle() {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
-                "fullScreen": {
-                    "enable": true,
-                    "zIndex": -1
+                fullScreen: {
+                    enable: false,
+                    zIndex: -1
+                },
+                style: {
+                    position: "absolute",
+                    top: 0,
+                    left:0
                 },
                 particles: {
                     number: {
@@ -59,7 +64,7 @@ function Particle() {
                     },
                     move: {
                         enable: true,
-                        speed: 1,
+                        speed: 0.5,
                     },
                 },
                 interactivity: {

@@ -12,23 +12,21 @@
     max-width: 35rem;
 }
 
-/* .timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
-    line-height: inherit;
-} */
-
 .timeline h3{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-block: 2rem;
     font-family: 'Trirong'
 }
 
 .bullet-list{
     list-style: inside;
+    font-size: 0.8em;
 }
 
 .links a {
     color: #00e8ff;
     text-decoration: underline;
+    font-size: 0.8em;
 }
 
 .links {
