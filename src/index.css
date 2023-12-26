@@ -177,6 +177,12 @@ p{
   margin-right: auto;
 }
 
+#resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 

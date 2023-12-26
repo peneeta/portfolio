@@ -1,7 +1,9 @@
 
 import './NavbarStyle.css'
+import React, { useEffect, useRef, useState } from "react";
 
-function Navbar (){
+function Navbar ({ observerRefs }){
+
     function navToggle () {
         const primaryNav = document.querySelector('.nav-links');
         const toggle = document.querySelector('.mobile-toggle');
@@ -15,7 +17,7 @@ function Navbar (){
             toggle.setAttribute('aria-expanded', false);
         }
     }
-    
+        
     return(
         
         <nav>
@@ -28,7 +30,6 @@ function Navbar (){
             </ul>
         </nav>
     )
-
     
 }
 
