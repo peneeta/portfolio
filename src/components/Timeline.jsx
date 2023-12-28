@@ -18,11 +18,14 @@ function Timeline () {
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">Capstone Senior Thesis (University of Virginia, Charlottesville)</h3>
+                        <div className="header">
+                            <h3 className="timeline-title">Biomedical Engineering Capstone Thesis</h3>
+                            <h2>Sheffield Lab, University of Virginia - Charlottesville</h2>
+                        </div>
                         <ul className='bullet-list'>
-                            <li>Collaborate with 2 graduate and 3 undergraduates to develop four deep learning models in the Sheffield lab</li>
-                            <li>Implementing a transformer model trained on tokenized BED files to predict closely related genomic regions.</li>
-                            <li>Compare model results using classification tasks.</li>
+                            <li>Developing a transformer deep learning model to translate natural language search queries to relevant genomic region sets</li>
+                            <li>Collaborating with three undergraduate students developing autoencoder, diffusion, and Word2Vec-based models to compare performance between models</li>
+                            <li>Incorporating the best-performing model into a search interface that returns genomic coordinates based on a user-entered query</li>
                         </ul>
                         <div className="links">
                             <ul>
@@ -37,11 +40,15 @@ function Timeline () {
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">DAAD RISE Intern Computational Chemistry (FAU Erlangen-Nürnberg)</h3>
+                        <div className="header">
+                            <h3 className="timeline-title">DAAD RISE Internship in Computational Chemistry</h3>
+                            <h2>Gmeiner Lab, Friedrich-Alexander-Universität Erlangen-Nürnberg - Germany</h2>
+                        </div>
+                        
                         <ul className='bullet-list'>
-                            <li>Worked in the Gmeiner Lab, mentored by graduate student Eduard Neu</li>
-                            <li>Simulated 5 GPCR receptors with associated ligand binding using molecular dynamics simulation software such as GROMACS, AMBER, and CHARMMGUI</li>
-                            <li>Conducted hydrogen bonding and RMSD analysis comparing mutant and wild-type ligands</li>   
+                            <li>Simulated 5 GPCR receptors with associated ligand binding using GROMACS, AMBER, CHARMMGUI, and other molecular dynamics simulation softwares</li>
+                            <li>Conducted hydrogen bonding and RMSD analysis to compare mutant and wild-type ligand binding</li> 
+                            <li>Completed Master's-level workshop in Drug Discovery at FAU taught by Dr. Petra Imhof</li>  
                         </ul>
                         <div className='links'>
                             <ul>
@@ -65,11 +72,26 @@ function Timeline () {
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">iGEM Competition Researcher and Wiki Lead (University of Virginia, Charlottesville)</h3>
+                        <div className="header">
+                            <h3 className="timeline-title">iGEM Competition Researcher and Wiki Lead</h3>
+                            <h2>UVA iGEM, University of Virginia - Charlottesville</h2>
+                        </div>
+
                         <ul className='bullet-list'>
-                            <li>Developed a lateral flow assay (LFA) test strip for atherosclerosis using antibodies produced in <i>E. coli</i></li>
-                            <li>Designed and implemented the team website documenting every part of our research</li>
+                            <li>Collaborated with 11 undergraduates to develop a lateral flow assay (LFA) test strip for early atherosclerosis using recombinant antibodies produced in <i>E. coli</i></li>
+                            <li>Designed and implemented the UVA iGEM 2022 team website using Bootstrap, Flask, and JavaScript animation libraries</li>
+                            <li>Led coding sessions and taught team members the basics of HTML, CSS, and committing changes to a shared Git repository</li>
+                            <li>Edited the team promotional video using Adobe Premiere Pro and After Effects</li>
+                            <li>Created detailed schedules and gave frequent updates at team meetings to ensure that deadlines for Wiki and video submission were met</li>
+                            <li>Presented project at the iGEM Midsummer Meetup at the University of Maryland, attended iGEM International Conference in Paris, FR</li>
                         </ul>
+
+                        <div className="links">
+                            <ul>
+                                <li><a href="https://2022.igem.wiki/virginia/">🔗 UVA iGEM 2022 Website</a></li>
+                                <li><a href="https://video.igem.org/w/5xFijFUtgcjQ4hk3LWj7uS?start=0s">🔗 Promotional Video</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </li>
                 <li className="timeline-item period">
@@ -85,10 +107,14 @@ function Timeline () {
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">Chemistry Lab Assistant (Christopher Newport University, Newport News)</h3>
+                        <div className="header">
+                            <h3 className="timeline-title">Chemistry Lab Assistant</h3>
+                            <h2>Fattah Lab, Christopher Newport University - Newport News</h2>
+                        </div>
+                        
                         <ul className='bullet-list'>
-                            <li>Worked in a chemistry lab supervised by Dr. Tarek Abdel Fattah </li>
                             <li>Synthesized and characterized Bio-Char, a form of activated charcoal made from organic matter</li>
+                            <li>Performed methylene blue absorption analysis for magentized Bio-Char, presented results at CNU Sigma XI Research Symposium</li>
                         </ul>
                     </div>
                 </li>

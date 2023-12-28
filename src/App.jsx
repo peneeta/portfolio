@@ -24,7 +24,7 @@ function App() {
               <h1>Peneeta</h1> 
             </div>
             <div className="subtitle text-base">
-              <p>Seeking research opportunities at the intersection of Biomedical Engineering 🧬, Computer Science 💻 and Data Science 📊.</p>
+              <p>Seeking research opportunities at the intersection of Biomedical Engineering 🧬, Computer Science 💻, and Data Science 📊.</p>
             </div>
             <div className="icons-wrapper">
               <a href="https://www.linkedin.com/in/peneeta/" target="_blank">

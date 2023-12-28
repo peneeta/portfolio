@@ -14,8 +14,11 @@
 
 .timeline h3{
     font-size: 1.2rem;
-    margin-block: 2rem;
     font-family: 'Trirong'
+}
+
+.timeline .header {
+    margin-block: 1.5rem;
 }
 
 .bullet-list{
