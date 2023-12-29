@@ -25,55 +25,6 @@ h1 {
   margin-right: auto;
 }
 
-/* TYPING ANIMATION */
-@keyframes typeAnim {
-  to { left: 100%; }
-}
-.headline h1::before,
-.headline h1::after{
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-@keyframes blink{
-  to{
-    visibility: hidden;
-  }
-}
-
-@keyframes disappear{
-  to{
-    background-color: transparent;
-  }
-}
-
-.headline h1::before{
-  background: var(--dark-background-color);
-  animation: typeAnim var(--type-speed) steps(7) 1.8s forwards;
-}
-
-.headline h1::after{
-  width: 0.03em;
-  height: 1em;
-  background: rgb(244, 244, 244);
-  animation: 
-    typeAnim var(--type-speed) steps(7) 1.8s forwards,
-    blink 900ms steps(2, start) 2,
-    disappear 2s ease-out 3s forwards;
-}
-
-/* Fade In Up */
-@keyframes fadeInUp{
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .section-text {
   text-align: center;
 }
