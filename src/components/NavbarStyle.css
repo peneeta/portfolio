@@ -6,8 +6,8 @@ nav {
 
 @supports (backdrop-filter: blur(1rem)) {
   .nav-links {
-    background-color: rgba(9, 9, 9, 0.681);
-    backdrop-filter: blur(1rem);
+    background-color: var(--light-color);
+
   }
 }
 
@@ -17,12 +17,12 @@ nav {
 
 .nav-links li a {
   text-decoration: none;
-  font-size: 0.8rem;
-  font-family: "Libre Franklin", sans-serif;
-  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: var(--dark-color);
 }
 
-.nav-links li a:after {
+/* .nav-links li a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   display: block;
@@ -37,7 +37,7 @@ nav {
 a:hover:after {
   width: 100%;
   left: 0;
-}
+} */
 
 .mobile-toggle {
   display: none;

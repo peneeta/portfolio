@@ -1,5 +1,3 @@
-/* FONT IMPORTS */
-@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600&family=Red+Hat+Mono&family=Trirong:wght@200&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,13 +8,7 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-family: "Red Hat Mono", monospace;
-  font-size: 2.3em;
-  line-height: 1.1;
-  font-weight: 300;
-  color: #4a7dff;
-}
+
 
 .headline h1 {
   position: relative;
@@ -33,27 +25,38 @@ h1 {
   margin-block: 2rem;
 }
 
-h2 {
-  font-family: "Trirong", serif;
-  color: rgb(255, 255, 255);
-}
-
-p {
-  font-family: "Libre Franklin", sans-serif;
-  color: #ececec;
-}
-
 /* HERO SECTION */
+/* .hero-background {
+  padding: 0;
+  margin: 0;
+  z-index: -999;
+  background: url("./assets/hero_background.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  position: relative;
+} */
 
 .hero {
+  z-index: 9999;
   height: 100vh;
   display: flex;
   justify-items: end;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background: black;
-  /* url("../assets/hero_background.svg"); */
+  background: url("./assets/hero_background.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+
+
 }
 
 .icons-wrapper {
@@ -90,16 +93,11 @@ p {
 
 .hero .container .text-wrapper h1 {
   padding-bottom: 1.5rem;
-  font-size: clamp(2.5rem, 2.5rem + 5vw, 7rem);
 }
 
 .hero h2 {
   font-size: 1.8rem;
   margin-bottom: 0.3rem;
-}
-
-.hero p {
-  font-size: 0.8rem;
 }
 
 .subtext-wrapper {
@@ -108,17 +106,30 @@ p {
 
 .icon svg {
   z-index: 10;
-  fill: #e3e3e3;
+  fill: var(--dark-color);
 }
+
+.wave-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -1vh;
+  width: 100vw;
+  overflow: hidden;
+  line-height: 0; 
+}
+
+.wave-divider svg{
+  position: relative;
+  display: block;
+  width: 100vw;
+}
+
+/* END HERO SECTION */
 
 .section {
   padding-block: 1rem;
-  /* background-color: var(--dark-background-color); */
-  background: linear-gradient(
-    180deg,
-    rgba(9, 9, 9, 0) 0%,
-    rgba(9, 9, 9, 1) 16%
-  );
+  background: var(--light-color)
 }
 
 #experience {

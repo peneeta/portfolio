@@ -1,5 +1,5 @@
-import Particle from './components/Particle';
-import 'css-doodle';
+// import Particle from './components/Particle';
+// import 'css-doodle';
 
 import './App.css'
 import './index.css'
@@ -13,19 +13,20 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-      {/* <Particle/> */}
-
       <Navbar/>
-      <div id="home" className="hero px-8">
+      <div id="home" className="hero">
         
-        <div className="container">
+        <div className="container px-8">
           <div className="text-wrapper">
+            <div className="portrait-wrapper">
+              <img src={"./assets/peneeta_portrait.jpg"} alt="" />
+            </div>
             <div className="headline">
               <h2>Hello, my name is</h2>
               <h1>Peneeta</h1> 
             </div>
             <div className="subtitle text-base">
-              <p>Seeking research opportunities at the intersection of Biomedical Engineering 🧬, Computer Science 💻, and Data Science 📊.</p>
+              <p>Masters student and aspiring genomics researcher, interested broadly in computational biology.</p>
             </div>
             <div className="icons-wrapper">
               <a href="https://www.linkedin.com/in/peneeta/" target="_blank">
@@ -45,14 +46,20 @@ function App() {
                 </div>
               </a>
             </div>
-          </div>
-          
+          </div>    
         </div>
+        <div className="wave-divider">
+            <svg viewBox="0 0 1280 262" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M223.5 161C116.854 243.269 55.5 -28 -52 227V262H1297V0C1226.5 111 1090.93 186.66 988 111C837 0 670 196.5 594.5 212.5C474.303 237.972 363.5 53.0004 223.5 161Z" fill="#FFFEFB"/>
+            </svg>
+       </div>
       </div>
+
+
 
       <div id="experience" className="px-8 section">
           <div className="section-text">
-            <h1>Experience</h1>
+            <h3>Experience</h3>
           </div>
         <Timeline/>
       </div>
@@ -60,9 +67,13 @@ function App() {
 
       <div id="resources" className="px-8 section">
           <div className="section-text">
-            <h1>Resources</h1>
+            <h3>Resources</h3>
           </div>
           <ResourcesList/>
+      </div>
+
+      <div className="final px-8 section">
+        <h3>Say hi! 👋</h3>
       </div>
 
 

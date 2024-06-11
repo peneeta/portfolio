@@ -1,7 +1,13 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
-  --light-background-color: rgb(255, 255, 255);
-  --dark-background-color: rgb(9, 9, 9);
   --type-speed: 2s;
+  --light-color: #FFFEFB;
+  --dark-color: #242431;
+  --cream-color: #FBEECF;
+  --pink-color: #FFDDD6;
+  
 }
 
 * {
@@ -12,4 +18,32 @@
 
 body {
   overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200!important;
+  color: var(--dark-color);
+  font-size: clamp(2.5rem, 2.5rem + 5vw, 7rem)!important;
+}
+
+h2 {
+  font-family: "Mitr", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200!important;
+  color: var(--dark-color);
+  font-size: clamp(2.5rem, 2.5rem + 5vw, 3rem)!important;
+}
+
+p {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: var(--dark-color)
 }

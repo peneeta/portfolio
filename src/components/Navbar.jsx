@@ -26,8 +26,8 @@ function Navbar ({ observerRefs }){
 
             <ul id="nav-links" data-visible='false' className="nav-links"> 
                 <li><a href="#" className="">Home</a></li>
-                <li><a href="#experience" className="">Experience</a></li>
-                <li><a href="#resources" className="">Resources</a></li>
+                <li><a href="#experience" className="">Projects</a></li>
+                <li><a href="#resources" className="">About</a></li>
             </ul>
         </nav>
     )
