@@ -7,7 +7,6 @@ nav {
 @supports (backdrop-filter: blur(1rem)) {
   .nav-links {
     background-color: var(--light-color);
-
   }
 }
 
@@ -47,33 +46,22 @@ nav {
 }
 /* END ACTIVE CLASS STYLING */
 
-.nav-links.button {
-  outline: 2px;
+.button {
+  margin-left: auto;
+  color: var(--dark-pink-color);
+  outline: solid;
+  outline-color: var(--dark-pink-color);
+  padding-inline: 10px;
+  padding-block: 5px;
+  border-radius: 10px;
+  transition: 0.3s linear;
 }
 
-.nav-links.button a {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  background-color: var(--pink-color);
-  color: var(--dark-color);
+.button:hover {
+  background-color: var(--dark-pink-color);
+  color: var(--light-color);
+  transition: 0.3s linear;
 }
-
-/* .nav-links li a:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: rgb(255, 255, 255);
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-
-a:hover:after {
-  width: 100%;
-  left: 0;
-} */
 
 .mobile-toggle {
   display: none;
@@ -155,5 +143,9 @@ a:hover:after {
 
   .mobile-toggle[aria-expanded="true"] {
     background-image: url("../assets/xMark.svg");
+  }
+
+  .button {
+    margin-left: 0;
   }
 }

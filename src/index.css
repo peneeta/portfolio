@@ -28,24 +28,10 @@
 .hero {
   z-index: 9999;
   height: 100vh;
-  display: flex;
-  justify-items: end;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
   background: url("./assets/hero_background.svg");
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
-}
-
-.icons-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1.3rem;
-  margin-top: 1.4rem;
 }
 
 .icons-wrapper svg {
@@ -65,17 +51,23 @@
 }
 
 .hero .container .text-wrapper h1 {
-  padding-bottom: 1.5rem;
   text-align: left;
   margin-left: -12px;
 }
 
-.hero h2 {
-  margin-bottom: 0.3rem;
-}
-
 .subtext-wrapper {
   max-width: 25rem;
+}
+
+img.portrait {
+  max-height: 16rem;
+  border-radius: 80px;
+  transform: translate(50%, -144%);
+}
+
+img.embellishment{
+  display: block;
+  max-width: 30rem;
 }
 
 .icon svg {

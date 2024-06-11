@@ -49,3 +49,7 @@ p {
   font-size: 1.2rem;
   color: var(--dark-color)
 }
+
+a {
+  font-family: "Montserrat", sans-serif;
+}
