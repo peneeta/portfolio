@@ -1,14 +1,19 @@
 // import Particle from './components/Particle';
 // import 'css-doodle';
 
+// Stylesheets
 import './App.css'
 import './index.css'
 
+// Components
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Timeline from './components/Timeline';
 import ResourcesList from './components/ResourcesList';
 
-import Navbar from './components/Navbar';
+import embellishments from './assets/images/Background_Embellishments.svg';
+import portrait from './assets/images/peneeta_portrait.jpg';
+
 
 function App() {
   return (
@@ -18,8 +23,10 @@ function App() {
         
         <div className="container px-8">
           <div className="text-wrapper">
+            <img src={"./assets/Background_Embellishments.svg"} alt="" />
             <div className="portrait-wrapper">
-              <img src={"./assets/peneeta_portrait.jpg"} alt="" />
+              <img src={embellishments} alt="" />
+              {/* <img src={portrait} alt="" /> */}
             </div>
             <div className="headline">
               <h2>Hello, my name is</h2>
@@ -55,6 +62,12 @@ function App() {
        </div>
       </div>
 
+      <div className="px-8 section">
+        <div className="section-text">
+          <h3>Education</h3>
+        </div>
+      </div>
+
 
 
       <div id="experience" className="px-8 section">
@@ -73,7 +86,9 @@ function App() {
       </div>
 
       <div className="final px-8 section">
-        <h3>Say hi! 👋</h3>
+        <div className="section-text my-3">
+          <h3>Say hi! 👋</h3>
+        </div>
       </div>
 
 
