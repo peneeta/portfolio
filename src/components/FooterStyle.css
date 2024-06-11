@@ -1,7 +1,6 @@
 footer {
     position: relative;
     width: 100%;
-    padding-top: 1rem;
     background: var(--pink-color);
 }
 
@@ -13,6 +12,7 @@ footer {
 .footer-wave-divider {
     position: absolute;
     left: 0;
+    bottom: 6rem;
     width: 100vw;
     line-height: 0; 
 }

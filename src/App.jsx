@@ -1,5 +1,4 @@
 // import Particle from './components/Particle';
-// import 'css-doodle';
 
 // Stylesheets
 import './App.css'
@@ -10,7 +9,9 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Timeline from './components/Timeline';
 import ResourcesList from './components/ResourcesList';
+import Education from './components/Education';
 
+// Images and such
 import embellishments from './assets/images/Background_Embellishments.svg';
 import portrait from './assets/images/peneeta_portrait.jpg';
 
@@ -31,10 +32,11 @@ function App() {
             <div className="headline">
               <h2>Hello, my name is</h2>
               <h1>Peneeta</h1> 
+              <div className="subtitle text-base">
+                <p>Masters student and aspiring genomics researcher, interested broadly in computational biology.</p>
+              </div>
             </div>
-            <div className="subtitle text-base">
-              <p>Masters student and aspiring genomics researcher, interested broadly in computational biology.</p>
-            </div>
+
             <div className="icons-wrapper">
               <a href="https://www.linkedin.com/in/peneeta/" target="_blank">
                 <div className="icon linkedin">
@@ -66,6 +68,7 @@ function App() {
         <div className="section-text">
           <h3>Education</h3>
         </div>
+        <Education/>
       </div>
 
 

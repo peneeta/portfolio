@@ -1,6 +1,6 @@
 
 import './NavbarStyle.css'
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useLocation } from "react";
 
 function Navbar ({ observerRefs }){
 
@@ -25,10 +25,16 @@ function Navbar ({ observerRefs }){
             </button>
 
             <ul id="nav-links" data-visible='false' className="nav-links"> 
-                <li><a href="#" className="">Home</a></li>
+                <li><a href="#" className="active">Home</a></li>
                 <li><a href="#experience" className="">Projects</a></li>
                 <li><a href="#resources" className="">About</a></li>
+
+                <div className="button">
+                    <a href="#" className="rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Download CV</a>
+                </div>
             </ul>
+
+
         </nav>
     )
     
