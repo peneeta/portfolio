@@ -58,14 +58,6 @@
   transition: transform 0.5s ease;
 }
 
-.hero .container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-}
-
 .hero .container .text-wrapper {
   text-align: left;
   max-width: 30rem;

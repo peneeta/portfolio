@@ -21,14 +21,12 @@ function App() {
     <div className="App">
       <Navbar/>
       <div id="home" className="hero">
-        
-        <div className="container px-8">
-          <div className="text-wrapper">
-            <img src={"./assets/Background_Embellishments.svg"} alt="" />
+        <div className="container px-8 flex flex-row justify-center items-center gap-x-10">
             <div className="portrait-wrapper">
               <img src={embellishments} alt="" />
               {/* <img src={portrait} alt="" /> */}
             </div>
+          <div className="text-wrapper">
             <div className="headline">
               <h2>Hello, my name is</h2>
               <h1>Peneeta</h1> 
