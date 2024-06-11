@@ -1,5 +1,5 @@
 /* FONT IMPORTS */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600&family=Red+Hat+Mono&family=Trirong:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600&family=Red+Hat+Mono&family=Trirong:wght@200&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,14 +11,14 @@
 }
 
 h1 {
-  font-family: 'Red Hat Mono', monospace;
+  font-family: "Red Hat Mono", monospace;
   font-size: 2.3em;
   line-height: 1.1;
   font-weight: 300;
   color: #4a7dff;
 }
 
-.headline h1{
+.headline h1 {
   position: relative;
   width: max-content;
   margin-left: auto;
@@ -29,29 +29,31 @@ h1 {
   text-align: center;
 }
 
-.section-text h1{
+.section-text h1 {
   margin-block: 2rem;
 }
 
-h2{
-  font-family: 'Trirong', serif;
+h2 {
+  font-family: "Trirong", serif;
   color: rgb(255, 255, 255);
 }
 
-p{
-  font-family: 'Libre Franklin', sans-serif;
+p {
+  font-family: "Libre Franklin", sans-serif;
   color: #ececec;
 }
 
 /* HERO SECTION */
 
-.hero{
+.hero {
   height: 100vh;
   display: flex;
   justify-items: end;
   align-items: center;
   justify-content: center;
-  flex-direction: row;  
+  flex-direction: row;
+  background: black;
+  /* url("../assets/hero_background.svg"); */
 }
 
 .icons-wrapper {
@@ -60,17 +62,17 @@ p{
   justify-content: center;
   align-items: center;
   gap: 1.3rem;
-  margin-top: 1.4rem
+  margin-top: 1.4rem;
 }
 
-.icons-wrapper svg{
+.icons-wrapper svg {
   transform: scale(1);
-  transition: transform  0.2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
-.icons-wrapper svg:hover{
+.icons-wrapper svg:hover {
   transform: scale(1.4);
-  transition: transform  0.5s ease;
+  transition: transform 0.5s ease;
 }
 
 .hero .container {
@@ -86,17 +88,17 @@ p{
   max-width: 30rem;
 }
 
-.hero .container .text-wrapper h1{
+.hero .container .text-wrapper h1 {
   padding-bottom: 1.5rem;
   font-size: clamp(2.5rem, 2.5rem + 5vw, 7rem);
 }
 
-.hero h2{
+.hero h2 {
   font-size: 1.8rem;
   margin-bottom: 0.3rem;
 }
 
-.hero p{
+.hero p {
   font-size: 0.8rem;
 }
 
@@ -112,7 +114,11 @@ p{
 .section {
   padding-block: 1rem;
   /* background-color: var(--dark-background-color); */
-  background: linear-gradient(180deg, rgba(9,9,9,0) 0%, rgba(9,9,9,1) 16%);
+  background: linear-gradient(
+    180deg,
+    rgba(9, 9, 9, 0) 0%,
+    rgba(9, 9, 9, 1) 16%
+  );
 }
 
 #experience {
@@ -122,9 +128,9 @@ p{
   align-items: center;
 }
 
-#experience .section-text{
+#experience .section-text {
   max-width: 34rem;
-  margin-left: auto; 
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -134,8 +140,3 @@ p{
   justify-content: center;
   align-items: center;
 }
-
-
-
-
-

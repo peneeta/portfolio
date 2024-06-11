@@ -1,8 +1,8 @@
-import Lottie from 'lottie-react'
-import nameAnimation from './assets/peneeta_penstroke.json'
-
 import Particle from './components/Particle';
+import 'css-doodle';
+
 import './App.css'
+import './index.css'
 
 import Footer from './components/Footer';
 import Timeline from './components/Timeline';
@@ -13,9 +13,10 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-      <Particle/>
+      {/* <Particle/> */}
+
       <Navbar/>
-      <div id="home" className="hero mx-8">
+      <div id="home" className="hero px-8">
         
         <div className="container">
           <div className="text-wrapper">

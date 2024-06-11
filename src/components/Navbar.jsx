@@ -23,6 +23,7 @@ function Navbar ({ observerRefs }){
         <nav>
             <button className="mobile-toggle" aria-controls="nav-links" aria-expanded="false" onClick={navToggle}>
             </button>
+
             <ul id="nav-links" data-visible='false' className="nav-links"> 
                 <li><a href="#" className="">Home</a></li>
                 <li><a href="#experience" className="">Experience</a></li>
