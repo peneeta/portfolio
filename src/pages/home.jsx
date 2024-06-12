@@ -62,22 +62,15 @@ function Home() {
         <div id="experience" className="px-8 flex flex-col items-center justify-center section">
             <div className="section-text">
             <h3 className="pb-11">Research</h3>
-            <p>A brief overview of the things I’ve been involved in. Read more about them in my CV or check out some of my projects!</p>
+            <p style={{maxWidth: "25rem"}}>A brief overview of the things I’ve been involved in. Read more about them in my CV or check out some of my projects!</p>
             </div>
         <Timeline/>
         </div>
 
-
-        <div id="resources" className="px-8 section">
-            <div className="section-text">
-            <h3>Resources</h3>
-            </div>
-            <ResourcesList/>
-        </div>
-
-        <div className="final px-8 section mb-20">
+        <div className="px-10 section mb-20" style={{height: "35vh"}}>
             <div className="section-text my-3">
-                <h3>Say hi! 👋</h3>
+                <h3 className="mb-6">Say hi! 👋</h3>
+                <p>Feel free to email me or send me a message on LinkedIn.</p>
             </div>
         </div>
         </div>
