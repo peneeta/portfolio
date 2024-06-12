@@ -9,7 +9,7 @@ function Timeline () {
                     <div className="timeline-info"></div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h2 className="timeline-title">2023</h2>
+                        <h2 className="timeline-title">2024</h2>
                     </div>
                 </li>
                 <li className="timeline-item">
@@ -19,18 +19,23 @@ function Timeline () {
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
                         <div className="header">
-                            <h3 className="timeline-title">Biomedical Engineering Capstone Thesis</h3>
-                            <h2>Sheffield Lab, University of Virginia - Charlottesville</h2>
+                            <h3 className="timeline-title mb-3 pt-7">Biomedical Engineering Capstone Thesis</h3>
+                            <h2>Sheffield Lab • University of Virginia • Charlottesville</h2>
                         </div>
-                        <ul className='bullet-list'>
-                            <li>Developing a transformer deep learning model to translate natural language search queries to relevant genomic region sets</li>
-                            <li>Collaborating with three undergraduate students developing autoencoder, diffusion, and Word2Vec-based models to compare performance between models</li>
-                            <li>Incorporating the best-performing model into a search interface that returns genomic coordinates based on a user-entered query</li>
-                        </ul>
+                        <div className='desc pt-7'>
+                            <p> Developing a transformer model to convert a natural language search query to relevant regions representing sites of epigenomic modification (presented in BED file format). </p>
+                        </div>
                         <div className="links">
                             <ul>
                                 <li><a href="https://databio.org/"> 🔗 Sheffield Lab Website</a></li>
                             </ul>
+                        </div>
+
+                        <div className="skill-tags">
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">PyTorch</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">Genomics</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">Deep Learning</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">NLP</button>
                         </div>
                     </div>
                 </li>
@@ -41,21 +46,25 @@ function Timeline () {
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
                         <div className="header">
-                            <h3 className="timeline-title">DAAD RISE Internship in Computational Chemistry</h3>
+                            <h3 className="timeline-title mb-3 pt-7">DAAD RISE Internship in Computational Chemistry</h3>
                             <h2>Gmeiner Lab, Friedrich-Alexander-Universität Erlangen-Nürnberg - Germany</h2>
                         </div>
                         
-                        <ul className='bullet-list'>
-                            <li>Simulated 5 GPCR receptors with associated ligand binding using GROMACS, AMBER, CHARMMGUI, and other molecular dynamics simulation softwares</li>
-                            <li>Conducted hydrogen bonding and RMSD analysis to compare mutant and wild-type ligand binding</li> 
-                            <li>Completed Master's-level workshop in Drug Discovery at FAU taught by Dr. Petra Imhof</li>  
-                        </ul>
+                        <div className='desc pt-7'>
+                            <p>Simulating GPCR receptors and associated ligand binding with molecular dynamics software.</p>
+                        </div>
                         <div className='links'>
                             <ul>
                                 <li><a href="http://www.medchem.uni-erlangen.de/gmeinerlab/">🔗 Gmeiner Lab Website</a></li>
                                 <li><a href="https://docs.google.com/document/d/1Zae1JEqIUgD9U-f2B-E3epebK3Vle18ii6bCqq5JsJc/edit?usp=sharing">📄 MD Simulation Workflow</a></li>
                             </ul>
+                        </div>
 
+                        <div className="skill-tags">
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">High-Performance Computing</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">VMD</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">GROMACS</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">AMBER</button>
                         </div>
                     </div>
                 </li>
@@ -73,24 +82,26 @@ function Timeline () {
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
                         <div className="header">
-                            <h3 className="timeline-title">iGEM Competition Researcher and Wiki Lead</h3>
+                            <h3 className="timeline-title mb-3 pt-7">iGEM Competition Researcher and Wiki Lead</h3>
                             <h2>UVA iGEM, University of Virginia - Charlottesville</h2>
                         </div>
 
-                        <ul className='bullet-list'>
-                            <li>Collaborated with 11 undergraduates to develop a lateral flow assay (LFA) test strip for early atherosclerosis using recombinant antibodies produced in <i>E. coli</i></li>
-                            <li>Designed and implemented the UVA iGEM 2022 team website using Bootstrap, Flask, and JavaScript animation libraries</li>
-                            <li>Led coding sessions and taught team members the basics of HTML, CSS, and committing changes to a shared Git repository</li>
-                            <li>Edited the team promotional video using Adobe Premiere Pro and After Effects</li>
-                            <li>Created detailed schedules and gave frequent updates at team meetings to ensure that deadlines for Wiki and video submission were met</li>
-                            <li>Presented project at the iGEM Midsummer Meetup at the University of Maryland, attended iGEM International Conference in Paris, FR</li>
-                        </ul>
+                        <div className='desc pt-7'>
+                            <p>Developing a lateral flow test strip for early atherosclerosis detection using recombinant detection antibodies produced in bacteria.</p>
+                        </div>
 
                         <div className="links">
                             <ul>
                                 <li><a href="https://2022.igem.wiki/virginia/">🔗 UVA iGEM 2022 Website</a></li>
                                 <li><a href="https://video.igem.org/w/5xFijFUtgcjQ4hk3LWj7uS?start=0s">🔗 Promotional Video</a></li>
                             </ul>
+                        </div>
+
+                        <div className="skill-tags">
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">Synthetic Biology</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">Web Dev</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">Experimental Design</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">Bacterial Cell Culture</button>
                         </div>
                     </div>
                 </li>
@@ -108,15 +119,24 @@ function Timeline () {
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
                         <div className="header">
-                            <h3 className="timeline-title">Chemistry Lab Assistant</h3>
+                            <h3 className="timeline-title mb-3 pt-7">Chemistry Lab Assistant</h3>
                             <h2>Fattah Lab, Christopher Newport University - Newport News</h2>
                         </div>
                         
-                        <ul className='bullet-list'>
-                            <li>Synthesized and characterized Bio-Char, a form of activated charcoal made from organic matter</li>
-                            <li>Performed methylene blue absorption analysis for magentized Bio-Char, presented results at CNU Sigma XI Research Symposium</li>
-                        </ul>
+                        <div className='desc pt-7'>
+                            <p>Synthesizing and characterizing magnetized BioChar for use in metallic wastewater filtration.</p>
+                        </div>
+
+                        <div className="skill-tags py-4">
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">Spectrophotometry</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">FTIR</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">Compound Synthesis</button>
+                        </div>
                     </div>
+                </li>
+
+                <li className="timeline-item period">
+                    <div className="timeline-info"></div>
                 </li>
             </ul>
         </div>

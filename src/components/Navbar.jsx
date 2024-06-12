@@ -1,6 +1,7 @@
 
 import './NavbarStyle.css'
 import React, { useEffect, useRef, useLocation } from "react";
+import {Link} from 'react-router-dom';
 
 function Navbar ({ observerRefs }){
 
@@ -25,9 +26,9 @@ function Navbar ({ observerRefs }){
             </button>
 
             <ul id="nav-links" data-visible='false' className="nav-links"> 
-                <li><a href="#" className="active">Home</a></li>
-                <li><a href="#experience" className="">Projects</a></li>
-                <li><a href="#resources" className="">About</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/projects">Projects</Link></li>
+                <li><Link to="/about">About</Link></li>
 
                 <div className="button">
                     <a href="#" className="rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Download CV</a>

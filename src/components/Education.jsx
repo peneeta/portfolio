@@ -2,8 +2,8 @@ import './EducationStyle.css';
 
 function Education() {
     return(
-        <div className="education-section flex flex-col gap-y-16 py-16">
-            <div className="edu-block flex flex-wrap flex-row items-center justify-center gap-x-8">
+        <div className="education-section my-10 flex flex-row items-center justify-center gap-x-16 px-16">
+            <div className="edu-block flex flex-wrap flex-col items-center justify-center gap-x-8">
                 <div className="blob-img">
                     {/* PUT IMAGE HERE */}
                     <p>IMAGE HERE</p>
@@ -16,7 +16,7 @@ function Education() {
                 </div>
             </div>
 
-            <div className="edu-block flex flex-wrap flex-row items-center justify-center gap-x-8">
+            <div className="edu-block flex flex-wrap flex-col items-center justify-center gap-x-8">
                 <div className="blob-img">
                     {/* PUT IMAGE HERE */}
                     <p>IMAGE HERE</p>

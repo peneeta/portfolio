@@ -1,14 +1,15 @@
 /* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Forum&family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --type-speed: 2s;
-  --light-color: #FFFEFB;
+  --light-color: #fffefb;
   --dark-color: #242431;
-  --cream-color: #FBEECF;
-  --pink-color: #FFDDD6;
-  --dark-pink-color: #89053D;
-  
+  --cream-color: #fbeecf;
+  --pink-color: #ffddd6;
+  --dark-pink-color: #89053d;
+  --light-blue-color: #6ea6bf;
+  --coral-color: #f8705e;
 }
 
 * {
@@ -19,27 +20,29 @@
 
 body {
   overflow-x: hidden;
+  background-color: --var(--light-color);
 }
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 200!important;
+  font-weight: 200 !important;
   color: var(--dark-color);
-  font-size: clamp(3.5rem, 3.5rem + 5vw, 7rem)!important;
+  font-size: clamp(3.5rem, 3.5rem + 5vw, 7rem) !important;
 }
 
 h2 {
   font-family: "Mitr", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.5rem!important;
+  font-size: 1.5rem !important;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 200!important;
+  font-weight: 200 !important;
   color: var(--dark-color);
-  font-size: clamp(2.5rem, 2.5rem + 5vw, 3rem)!important;
+  font-size: clamp(2.5rem, 2.5rem + 5vw, 3rem) !important;
+  line-height: 40px;
 }
 
 p {
@@ -47,7 +50,7 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 1.2rem;
-  color: var(--dark-color)
+  color: var(--dark-color);
 }
 
 a {

@@ -8,8 +8,6 @@
   box-sizing: border-box;
 }
 
-
-
 .headline h1 {
   position: relative;
   width: max-content;
@@ -47,7 +45,6 @@
 .hero .container .text-wrapper {
   text-align: left;
   max-width: 30rem;
-
 }
 
 .hero .container .text-wrapper h1 {
@@ -60,14 +57,7 @@
 }
 
 img.portrait {
-  max-height: 16rem;
-  border-radius: 80px;
-  transform: translate(50%, -144%);
-}
-
-img.embellishment{
-  display: block;
-  max-width: 30rem;
+  max-height: 35rem;
 }
 
 .icon svg {
@@ -82,10 +72,10 @@ img.embellishment{
   margin-bottom: -1vh;
   width: 100vw;
   overflow: hidden;
-  line-height: 0; 
+  line-height: 0;
 }
 
-.wave-divider svg{
+.wave-divider svg {
   position: relative;
   display: block;
   width: 100vw;
@@ -95,14 +85,6 @@ img.embellishment{
 
 .section {
   padding-block: 2rem;
-  background: var(--light-color)
-}
-
-#experience {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 #experience .section-text {
