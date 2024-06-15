@@ -26,7 +26,7 @@
 .hero {
   z-index: 9999;
   height: 100vh;
-  background: url("./assets/hero_background.svg");
+  background: url("./assets/images/hero_background.svg");
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -91,11 +91,4 @@ img.portrait {
   max-width: 34rem;
   margin-left: auto;
   margin-right: auto;
-}
-
-#resources {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }

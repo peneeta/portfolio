@@ -94,6 +94,7 @@ function Timeline () {
                             <ul>
                                 <li><a href="https://2022.igem.wiki/virginia/">🔗 UVA iGEM 2022 Website</a></li>
                                 <li><a href="https://video.igem.org/w/5xFijFUtgcjQ4hk3LWj7uS?start=0s">🔗 Promotional Video</a></li>
+                                <li><a href="https://bio.as.virginia.edu/virginia-igem-team-feted-paris">🔗 Department of Biology Media Post</a></li>
                             </ul>
                         </div>
 

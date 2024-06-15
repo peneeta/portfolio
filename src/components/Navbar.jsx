@@ -3,6 +3,9 @@ import './NavbarStyle.css'
 import React, { useEffect, useRef, useLocation } from "react";
 import {Link, NavLink} from 'react-router-dom';
 
+import ProgressBar from "react-scroll-progress-bar";
+
+
 function Navbar ({ observerRefs }){
 
     function navToggle () {
@@ -34,7 +37,7 @@ function Navbar ({ observerRefs }){
                     <a href="#" className="rounded-md">Download CV</a>
                 </div>
             </ul>
-
+            <ProgressBar height="4" bgcolor="var(--dark-pink-color)" duration="0" />
 
         </nav>
     )

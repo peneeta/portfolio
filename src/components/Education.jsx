@@ -6,7 +6,7 @@ import CMU from '../assets/images/cmu.svg';
 function Education() {
     return(
         <div className="education-section my-10 flex flex-wrap flex-row items-center justify-center gap-x-16 px-16">
-            <div className="edu-block flex flex-col items-center justify-center gap-x-8 py-10">
+            <div className="edu-block flex flex-col items-center justify-center gap-x-8 py-10" data-aos="fade-right">
                 <div className="school-img mb-6">
                     <img style={{height: "8rem", opacity: "0.7"}} src={CMU} alt="CMU logo" />
                 </div>
@@ -18,7 +18,7 @@ function Education() {
                 </div>
             </div>
 
-            <div className="edu-block flex flex-col items-center justify-center gap-x-8">
+            <div className="edu-block flex flex-col items-center justify-center gap-x-8" data-aos="fade-left">
                 <div className="school-img mb-6">
                     <img style={{height: "8rem"}} src={UVA} alt="UVA logo" />
                 </div>
