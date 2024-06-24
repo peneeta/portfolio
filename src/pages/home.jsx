@@ -40,7 +40,7 @@ function Home() {
                         </div>
                         </a>
 
-                        <a href="mailto:paw5vrr@virginia.edu">
+                        <a href="mailto:pawojcik@andrew.cmu.edu">
                         <div className="icon mail">
                             <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
                         </div>
@@ -55,14 +55,12 @@ function Home() {
             </div>
         </div>
 
-        <div className="px-8 section">
+        <div className="px-8 education section">
             <div className="section-text mb-12">
                 <h3>Education</h3>
             </div>
             <Education/>
         </div>
-
-
 
         <div id="experience" className="px-8 flex flex-col items-center justify-center section">
             <div className="section-text">
@@ -72,10 +70,15 @@ function Home() {
         <Timeline/>
         </div>
 
-        <div className="px-10 section mb-20" style={{height: "35vh"}}>
-            <div className="section-text my-3">
+        <div className="px-10 section mb-20 flex items-center justify-center" style={{height: "35vh"}}>
+            <div className="section-text end my-3">
                 <h3 className="mb-6">Say hi! 👋</h3>
                 <p>Feel free to email or send me a message on LinkedIn.</p>
+
+                <div className="links my-3">
+                    <li><a href="mailto:pawojcik@andrew.cmu.edu" target="_blank">📩  pawojcik@andrew.cmu.edu</a></li>
+                    <li><a href="https://www.linkedin.com/in/peneeta/">👤  www.linkedin.com/in/peneeta</a></li>
+                </div>
             </div>
         </div>
         </div>
