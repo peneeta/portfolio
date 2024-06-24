@@ -1,14 +1,24 @@
 footer {
+    position: relative;
     width: 100%;
-    padding-top: 1rem;
-    background: rgb(25, 25, 25);
-}
-
-footer p {
-    color: white;
+    background: var(--pink-color);
 }
 
 .top-text{
     text-align: center;
-    padding-block: 2rem;
+    padding-block: 1.5rem;
+}
+
+.footer-wave-divider {
+    position: absolute;
+    left: 0;
+    bottom: 6rem;
+    width: 100vw;
+    line-height: 0; 
+}
+
+.wave-divider svg{
+    position: relative;
+    display: block;
+    width: 100vw;
 }

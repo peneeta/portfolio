@@ -1,133 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600&family=Trirong:wght@200&display=swap');
-
-/*================================== TIMELINE ==================================*/
-/*-- GENERAL STYLES ------------------------------*/
 .timeline {
-    line-height: 1.4em;
-    margin-top: 5rem !important;
-    z-index: 4;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    max-width: 35rem;
+  line-height: 1.4em;
+  margin-top: 5rem !important;
+  z-index: 4;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 44.3rem;
 }
 
-.timeline h3{
-    font-size: 1.2rem;
-    font-family: 'Trirong'
+.timeline h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400 !important;
+  color: var(--dark-color);
+  font-size: 2rem !important;
 }
 
-.timeline .header {
-    margin-block: 1.5rem;
+.timeline h2 {
+  color: var(--dark-pink-color);
+  font-size: 0.95rem !important;
 }
 
-.bullet-list{
-    list-style: inside;
-    font-size: 0.8em;
-}
-
+/* LINK STYLING */
 .links a {
-    color: #00e8ff;
-    text-decoration: underline;
-    font-size: 0.8em;
+  color: var(--light-blue-color);
+  text-decoration: underline;
+  font-size: 0.8em;
 }
 
 .links {
-    padding-block: 1rem;
+  padding-block: 1rem;
+  color: var(--dark-color);
+}
+
+/* TAG BUTTON STYLING */
+button {
+  cursor: default;
+  color: var(--dark-pink-color);
+  border: 1px solid var(--dark-pink-color);
+  background-color: #ffecf0;
 }
 
 /*----- TIMELINE ITEM -----*/
 .timeline-item {
-    padding-left: 40px;
-    position: relative;
+  padding-left: 40px;
+  position: relative;
 }
 .timeline-item:last-child {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 /*----- TIMELINE INFO -----*/
 .timeline-info {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    margin: 0 0 0.5em 0;
-    text-transform: uppercase;
-    white-space: nowrap;
+  font-size: 12px;
+  color: var(--dark-color);
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0 0 0.5em 0;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 /*----- TIMELINE MARKER -----*/
 .timeline-marker {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15px;
 }
 .timeline-marker:before {
-    background: #F45B69;
-    border: 3px solid #F45B69;
-    border-radius: 100%;
-    content: "";
-    display: block;
-    height: 15px;
-    position: absolute;
-    top: 4px;
-    left: 0;
-    width: 15px;
-    transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+  background: var(--coral-color);
+  border: 2px solid var(--coral-color);
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 15px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
 }
 .timeline-marker:after {
-    content: "";
-    width: 3px;
-    background: #ccd5db;
-    display: block;
-    position: absolute;
-    top: 24px;
-    bottom: 0;
-    left: 6px;
+  content: "";
+  width: 1px;
+  background: var(--dark-color);
+  display: block;
+  position: absolute;
+  top: 24px;
+  bottom: 0;
+  left: 6px;
 }
 .timeline-item:last-child .timeline-marker:after {
-    content: none;
+  content: none;
 }
 .timeline-item:not(.period):hover .timeline-marker:before {
-    background: transparent;
-    border: 3px solid "white";
+  background: transparent;
+  border: 3px solid "white";
 }
 /*----- TIMELINE CONTENT -----*/
 .timeline-content {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 .timeline-content p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 /*----- TIMELINE PERIOD -----*/
 .period {
-    padding: 0;
+  padding: 0;
 }
 .period .timeline-info {
-    display: none;
+  display: none;
 }
 .period .timeline-marker:before {
-    background: transparent;
-    content: "";
-    width: 15px;
-    height: auto;
-    border: none;
-    border-radius: 0;
-    top: 0;
-    bottom: 30px;
-    position: absolute;
-    border-top: 3px solid #ccd5db;
-    border-bottom: 3px solid #ccd5db;
+  background: transparent;
+  content: "";
+  width: 15px;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  top: 0;
+  bottom: 30px;
+  position: absolute;
+  border-top: 2px solid var(--dark-color);
+  border-bottom: 2px solid var(--dark-color);
 }
 .period .timeline-marker:after {
-    content: "";
-    height: 32px;
-    top: auto;
+  content: "";
+  height: 32px;
+  top: auto;
 }
 .period .timeline-content {
-    padding: 40px 0 70px;
+  padding: 40px 0 70px;
 }
 .period .timeline-title {
-    margin: 0;
+  margin: 0;
 }
-
-

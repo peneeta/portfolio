@@ -1,6 +1,9 @@
 
 import './NavbarStyle.css'
-import React, { useEffect, useRef, useState } from "react";
+import Resume from '../assets/UpdatedRes.pdf';
+import React, { useEffect, useRef, useLocation } from "react";
+import {Link, NavLink} from 'react-router-dom';
+
 
 function Navbar ({ observerRefs }){
 
@@ -21,13 +24,22 @@ function Navbar ({ observerRefs }){
     return(
         
         <nav>
-            <button className="mobile-toggle" aria-controls="nav-links" aria-expanded="false" onClick={navToggle}>
-            </button>
+            <div className="button-background">
+                <button className="mobile-toggle" aria-controls="nav-links" aria-expanded="false" onClick={navToggle}>
+                </button>
+            </div>
+
+
             <ul id="nav-links" data-visible='false' className="nav-links"> 
-                <li><a href="#" className="">Home</a></li>
-                <li><a href="#experience" className="">Experience</a></li>
-                <li><a href="#resources" className="">Resources</a></li>
+                <li><NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>Home</NavLink></li>
+                <li><NavLink to="/projects" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>Projects</NavLink></li>
+                <li><NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>About</NavLink></li>
+
+                <div className="button text-center">
+                    <a href={Resume} target="_blank" className="rounded-md">Download CV</a>
+                </div>
             </ul>
+
         </nav>
     )
     
