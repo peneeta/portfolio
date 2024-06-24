@@ -1,6 +1,14 @@
 import './TimelineStyle.css'
+import AOS from 'aos';
 
 function Timeline () {
+    AOS.init({
+        once: true,
+        duration: 1500,
+        delay: 40,
+        easing: 'ease-in-sine'
+    });
+
     return(
 
         <div className="md:grid-cols-2">

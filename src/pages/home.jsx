@@ -9,17 +9,21 @@ import 'aos/dist/aos.css';
 import portrait from '../assets/images/portrait.png';
 
 function Home() {
-    AOS.init({once: true});
+    AOS.init({
+            once: true,
+            duration: 1200,
+            easing: 'ease-in-cubic'
+    });
 
     return(
         <div className="home">
             <div className="hero flex items-center justify-center flex-row">
                 <div className="container px-8 flex flex-wrap-reverse flex-row justify-center items-center gap-x-8">
-                    <div className="portrait-wrapper">
-                        <img className="portrait" src={portrait} alt="" />
+                    <div className="portrait-wrapper" data-aos="zoom-in">
+                        <img className="portrait" src={portrait} alt=""/>
                     </div>
 
-                    <div className="text-wrapper">
+                    <div className="text-wrapper" data-aos="zoom-in">
                         <div className="headline">
                             <h2 className="mb-1.5">Hello, my name is</h2>
                             <h1 className="pb-1.5">Peneeta</h1> 
@@ -56,22 +60,22 @@ function Home() {
         </div>
 
         <div className="px-8 education section">
-            <div className="section-text mb-12">
+            <div className="section-text mb-12" data-aos="fade-up">
                 <h3>Education</h3>
             </div>
             <Education/>
         </div>
 
         <div id="experience" className="px-8 flex flex-col items-center justify-center section">
-            <div className="section-text">
-            <h3 className="pb-11">Research</h3>
-            <p style={{maxWidth: "25rem"}}>A brief overview of the research areas I’ve been involved in. Read more about them in my CV or check out some of my projects!</p>
+            <div className="section-text" data-aos="fade-up">
+                <h3 className="pb-11">Research</h3>
+                <p style={{maxWidth: "25rem"}}>A brief overview of the research areas I’ve been involved in. Read more about them in my CV or check out some of my projects!</p>
             </div>
         <Timeline/>
         </div>
 
         <div className="px-10 section mb-20 flex items-center justify-center" style={{height: "35vh"}}>
-            <div className="section-text end my-3">
+            <div className="section-text end my-3" data-aos="fade-up">
                 <h3 className="mb-6">Say hi! 👋</h3>
                 <p>Feel free to email or send me a message on LinkedIn.</p>
 
