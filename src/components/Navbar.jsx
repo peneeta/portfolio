@@ -35,7 +35,7 @@ function Navbar ({ observerRefs }){
                 <li><NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>About</NavLink></li>
 
                 <div className="button text-center">
-                    <a href="#" className="rounded-md">Download CV</a>
+                    <a href="../assets/UpdatedRes.pdf" target="_blank" className="rounded-md">Download CV</a>
                 </div>
             </ul>
 
