@@ -1,0 +1,36 @@
+/* Projects Page */
+.projects .header-wrapper {
+  height: 73vh;
+  background-image: url("./assets/images/project_background.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.project-wave-divider {
+  position: absolute;
+  bottom: 24vh;
+  left: 0;
+  width: 100vw;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.project-wave-divider svg {
+  position: relative;
+  display: block;
+  width: 100vw;
+  /* height: 122px; */
+}
+
+/* About Page */
+
+.about .header-wrapper {
+  height: 45vh;
+  background-image: url("./assets/images/about_background.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}

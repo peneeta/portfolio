@@ -3,8 +3,6 @@ import './NavbarStyle.css'
 import React, { useEffect, useRef, useLocation } from "react";
 import {Link, NavLink} from 'react-router-dom';
 
-import ProgressBar from "react-scroll-progress-bar";
-
 
 function Navbar ({ observerRefs }){
 
@@ -25,8 +23,11 @@ function Navbar ({ observerRefs }){
     return(
         
         <nav>
-            <button className="mobile-toggle" aria-controls="nav-links" aria-expanded="false" onClick={navToggle}>
-            </button>
+            <div className="button-background">
+                <button className="mobile-toggle" aria-controls="nav-links" aria-expanded="false" onClick={navToggle}>
+                </button>
+            </div>
+
 
             <ul id="nav-links" data-visible='false' className="nav-links"> 
                 <li><NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>Home</NavLink></li>
@@ -37,7 +38,6 @@ function Navbar ({ observerRefs }){
                     <a href="#" className="rounded-md">Download CV</a>
                 </div>
             </ul>
-            <ProgressBar height="4" bgcolor="var(--dark-pink-color)" duration="0" />
 
         </nav>
     )

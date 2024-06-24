@@ -94,7 +94,7 @@ nav {
     gap: 2rem;
     z-index: 10;
     position: fixed;
-    padding: 3rem 4rem;
+    padding: 1.5rem;
     width: 100vw;
   }
 }
@@ -123,11 +123,11 @@ nav {
     background-repeat: no-repeat;
     border: 0;
     background-color: transparent;
-    width: 1.7rem;
+    width: 2rem;
     aspect-ratio: 1;
     z-index: 999;
-    top: 1.5rem;
-    left: 1.5rem;
+    top: 1rem;
+    left: 1rem;
   }
 
   .nav-links[data-visible="true"] {

@@ -14,7 +14,7 @@ function Home() {
     return(
         <div className="home">
             <div className="hero flex items-center justify-center flex-row">
-                <div className="container px-8 flex flex-wrap flex-row justify-center items-center gap-x-8">
+                <div className="container px-8 flex flex-wrap-reverse flex-row justify-center items-center gap-x-8">
                     <div className="portrait-wrapper">
                         <img className="portrait" src={portrait} alt="" />
                     </div>
@@ -26,9 +26,9 @@ function Home() {
                             <div className="subtitle text-base">
                                 <p>Masters student and aspiring genomics researcher, interested broadly in computational biology.</p>
                             </div>
-                    </div>
+                        </div>
 
-                    <div className="icons-wrapper flex flex-row justify-start items-center gap-8 mt-5">
+                    <div className="icons-wrapper gap-8 mt-5">
                         <a href="https://www.linkedin.com/in/peneeta/" target="_blank">
                         <div className="icon linkedin">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -46,11 +46,11 @@ function Home() {
                         </div>
                         </a>
                     </div>
-                </div>    
+                </div>  
             </div>
             <div className="wave-divider">
                 <svg viewBox="0 0 1280 262" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M223.5 161C116.854 243.269 55.5 -28 -52 227V262H1297V0C1226.5 111 1090.93 186.66 988 111C837 0 670 196.5 594.5 212.5C474.303 237.972 363.5 53.0004 223.5 161Z" fill="#FFFEFB"/>
+                    <path d="M223.5 161C116.854 243.269 55.5 -28 -52 227V262H1297V0C1226.5 111 1090.93 186.66 988 111C837 0 670 196.5 594.5 212.5C474.303 237.972 363.5 53.0004 223.5 161Z" fill="#FFFFFF"/>
                 </svg>
             </div>
         </div>
