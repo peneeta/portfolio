@@ -12,7 +12,7 @@ function Footer () {
                 </svg>
             </div>
             <div className="top-text">
-                <p>Designed and implemented by Peneeta :)</p>
+                <p>Created by Peneeta :)</p>
                 <p><span>&copy;</span> {new Date().getFullYear()}</p>
             </div>
         </footer>
