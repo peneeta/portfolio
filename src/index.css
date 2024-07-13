@@ -112,7 +112,7 @@ img.portrait {
   }
 
   .hero .container .text-wrapper h1 {
-    margin-left: 0px;
+    margin-left: 0px !important;
   }
 
   .icons-wrapper {

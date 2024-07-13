@@ -55,7 +55,7 @@ function Timeline () {
                     <div className="timeline-content">
                         <div className="header">
                             <h3 className="timeline-title mb-3 pt-7">DAAD RISE Internship in Computational Chemistry</h3>
-                            <h2>Gmeiner Lab, Friedrich-Alexander-Universität Erlangen-Nürnberg - Germany</h2>
+                            <h2>Gmeiner Lab • Friedrich-Alexander-Universität Erlangen-Nürnberg • Germany</h2>
                         </div>
                         
                         <div className='desc pt-7'>
@@ -91,7 +91,7 @@ function Timeline () {
                     <div className="timeline-content">
                         <div className="header">
                             <h3 className="timeline-title mb-3 pt-7">iGEM Competition Researcher and Wiki Lead</h3>
-                            <h2>UVA iGEM, University of Virginia - Charlottesville</h2>
+                            <h2>UVA iGEM • University of Virginia • Charlottesville</h2>
                         </div>
 
                         <div className='desc pt-7'>
@@ -129,7 +129,7 @@ function Timeline () {
                     <div className="timeline-content">
                         <div className="header">
                             <h3 className="timeline-title mb-3 pt-7">Chemistry Lab Assistant</h3>
-                            <h2>Fattah Lab, Christopher Newport University - Newport News</h2>
+                            <h2>Fattah Lab • Christopher Newport University • Newport News</h2>
                         </div>
                         
                         <div className='desc pt-7'>
