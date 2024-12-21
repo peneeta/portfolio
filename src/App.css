@@ -64,3 +64,14 @@ p {
 a {
   font-family: "Montserrat", sans-serif;
 }
+
+.links a {
+  color: var(--light-blue-color);
+  text-decoration: underline;
+  font-size: 0.8em;
+}
+
+.links p {
+  color: var(--light-blue-color);
+  text-decoration: underline;
+}

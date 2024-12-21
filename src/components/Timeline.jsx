@@ -13,6 +13,33 @@ function Timeline () {
 
         <div className="md:grid-cols-2">
             <ul className="timeline">
+            <li className="timeline-item">
+                    <div className="timeline-info">
+                        <span>September 2024 - Present</span>
+                    </div>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <div className="header">
+                            <h3 className="timeline-title mb-3 pt-7">Research Assistant</h3>
+                            <h2>Lugo-Martinez Lab • Carnegie Mellon University • Pittsburgh</h2>
+                        </div>
+                        <div className='desc pt-7'>
+                            <p> Analyze bulk RNAseq and scRNAseq data from clinical heart and lung tissue samples, conduct deconvolution and cell type annotation. </p>
+                        </div>
+                        <div className="links">
+                            <ul>
+                                {/* To fill in later */}
+                            </ul>
+                        </div>
+
+                        <div className="skill-tags">
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">Scanpy</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">Scaden</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">scRNAseq</button>
+                            <button className="py-1 px-5 me-2 mb-2 text-sm rounded-full">Bulk RNAseq</button>
+                        </div>
+                    </div>
+                </li>
                 <li className="timeline-item period">
                     <div className="timeline-info"></div>
                     <div className="timeline-marker"></div>
