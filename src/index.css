@@ -34,19 +34,14 @@
 
 .icons-wrapper {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
 }
 
 .icons-wrapper svg {
   transform: scale(1);
   transition: transform 0.2s ease-out;
-}
-
-.icons-wrapper svg:hover {
-  transform: scale(1.4);
-  transition: transform 0.5s ease;
 }
 
 .hero .container .text-wrapper {
