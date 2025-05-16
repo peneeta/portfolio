@@ -1,4 +1,4 @@
 # portfolio
-Still working on this! Check back later for updates
+Old version of my portfolio site. Go to [https://github.com/peneeta/portfolio_v2](https://github.com/peneeta/portfolio_v2) to see updates!
 
-Visit the site: [www.peneeta.com](https://peneeta.com)
+Visit the new site: [www.peneeta.com](https://peneeta.com)
